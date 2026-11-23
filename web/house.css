@@ -1,0 +1,1278 @@
+/* Christian Pure design system, copied from christianpure-design-system@966edbd: tokens.css, and the Button section of components.css. Do not edit here; copy again. */
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --cp-color-band-wine-fill: #6a1c26; /** Wine band and panel ground, under the house stone texture (D-050). Same colour as the wine social ground (D-029). */
+  --cp-color-band-wine-ink: #fffdf8; /** Text, controls and the select chevron on a wine band. */
+  --cp-color-band-wine-ink-muted: #f3dcd8; /** Ledes, helper text, hints and citations on a wine band. */
+  --cp-color-band-wine-ornament: #c58c23; /** Gold rules and diamonds on a wine band. Decoration: gated on the flat fill only. */
+  --cp-color-band-wine-marker: #e6b86a; /** Link underline and marker, and the current-step ring, on a wine band. Light gold, because the house gold drops under 3:1 on the lit centre of the green band. */
+  --cp-color-band-wine-focus: #e6b86a; /** Focus ring on a wine band. Light gold for the same reason as the marker. */
+  --cp-color-band-wine-danger: #f3b3a3; /** Error text and error borders on a wine band. */
+  --cp-color-band-green-fill: #1b4838; /** Green band and panel ground, under the house stone texture (D-050). Same colour as the green social ground (D-029). */
+  --cp-color-band-green-ink: #fffdf8; /** Text, controls and the select chevron on a green band. */
+  --cp-color-band-green-ink-muted: #d9eadf; /** Ledes, helper text, hints and citations on a green band. */
+  --cp-color-band-green-ornament: #c58c23; /** Gold rules and diamonds on a green band. Decoration: gated on the flat fill only. */
+  --cp-color-band-green-marker: #e6b86a; /** Link underline and marker, and the current-step ring, on a green band. Light gold, because the house gold drops under 3:1 on the lit centre of the green band. */
+  --cp-color-band-green-focus: #e6b86a; /** Focus ring on a green band. Light gold for the same reason as the marker. */
+  --cp-color-band-green-danger: #f3b3a3; /** Error text and error borders on a green band. */
+  --cp-color-band-peacock-fill: #0c4250; /** Peacock band and panel ground, under the house stone texture (D-050). Same colour as the peacock social ground (D-029). */
+  --cp-color-band-peacock-ink: #fffdf8; /** Text, controls and the select chevron on a peacock band. */
+  --cp-color-band-peacock-ink-muted: #d5e9ec; /** Ledes, helper text, hints and citations on a peacock band. */
+  --cp-color-band-peacock-ornament: #c58c23; /** Gold rules and diamonds on a peacock band. Decoration: gated on the flat fill only. */
+  --cp-color-band-peacock-marker: #e6b86a; /** Link underline and marker, and the current-step ring, on a peacock band. Light gold, because the house gold drops under 3:1 on the lit centre of the green band. */
+  --cp-color-band-peacock-focus: #e6b86a; /** Focus ring on a peacock band. Light gold for the same reason as the marker. */
+  --cp-color-band-peacock-danger: #f3b3a3; /** Error text and error borders on a peacock band. */
+  --cp-color-band-violet-fill: #3a2150; /** Violet band and panel ground, under the house stone texture (D-050). Same colour as the violet social ground (D-029). */
+  --cp-color-band-violet-ink: #fffdf8; /** Text, controls and the select chevron on a violet band. */
+  --cp-color-band-violet-ink-muted: #e4d9ee; /** Ledes, helper text, hints and citations on a violet band. */
+  --cp-color-band-violet-ornament: #c58c23; /** Gold rules and diamonds on a violet band. Decoration: gated on the flat fill only. */
+  --cp-color-band-violet-marker: #e6b86a; /** Link underline and marker, and the current-step ring, on a violet band. Light gold, because the house gold drops under 3:1 on the lit centre of the green band. */
+  --cp-color-band-violet-focus: #e6b86a; /** Focus ring on a violet band. Light gold for the same reason as the marker. */
+  --cp-color-band-violet-danger: #f3b3a3; /** Error text and error borders on a violet band. */
+  --cp-color-band-sage-fill: #dfe8d3; /** Sage band and panel ground, under the house stone texture (D-050). Same colour as the sage social ground (D-029). */
+  --cp-color-band-sage-ink: #002159; /** Text, controls and the select chevron on a sage band: the standard navy ink. */
+  --cp-color-band-sage-ink-muted: #4b5546; /** Ledes, helper text, hints and citations on a sage band. One step darker than the social card's muted ink, because the texture darkens the band. */
+  --cp-color-band-sage-ornament: #c58c23; /** Gold rules and diamonds on a sage band. Decoration: gated on the flat fill only. */
+  --cp-color-band-sage-marker: #a33f2b; /** Link underline and marker on a sage band. The marker coral drops under 3:1 on the textured band, so the band uses the text coral. */
+  --cp-color-band-sage-focus: #0951b1; /** Focus ring on a sage band: the standard blue. */
+  --cp-color-band-sage-danger: #8e3528; /** Error text and error borders on a sage band: the standard error colour. */
+  --cp-color-band-wheat-fill: #f5e9cf; /** Wheat band and panel ground, under the house stone texture (D-050). Same colour as the wheat social ground (D-029). */
+  --cp-color-band-wheat-ink: #002159; /** Text, controls and the select chevron on a wheat band: the standard navy ink. */
+  --cp-color-band-wheat-ink-muted: #60543b; /** Ledes, helper text, hints and citations on a wheat band. One step darker than the social card's muted ink, because the texture darkens the band. */
+  --cp-color-band-wheat-ornament: #c58c23; /** Gold rules and diamonds on a wheat band. Decoration: gated on the flat fill only. */
+  --cp-color-band-wheat-marker: #a33f2b; /** Link underline and marker on a wheat band. The marker coral drops under 3:1 on the textured band, so the band uses the text coral. */
+  --cp-color-band-wheat-focus: #0951b1; /** Focus ring on a wheat band: the standard blue. */
+  --cp-color-band-wheat-danger: #8e3528; /** Error text and error borders on a wheat band: the standard error colour. */
+  --cp-color-band-rose-fill: #f4e2dc; /** Rose band and panel ground, under the house stone texture (D-050). Same colour as the rose social ground (D-029). */
+  --cp-color-band-rose-ink: #002159; /** Text, controls and the select chevron on a rose band: the standard navy ink. */
+  --cp-color-band-rose-ink-muted: #624e4a; /** Ledes, helper text, hints and citations on a rose band. One step darker than the social card's muted ink, because the texture darkens the band. */
+  --cp-color-band-rose-ornament: #c58c23; /** Gold rules and diamonds on a rose band. Decoration: gated on the flat fill only. */
+  --cp-color-band-rose-marker: #a33f2b; /** Link underline and marker on a rose band. The marker coral drops under 3:1 on the textured band, so the band uses the text coral. */
+  --cp-color-band-rose-focus: #0951b1; /** Focus ring on a rose band: the standard blue. */
+  --cp-color-band-rose-danger: #8e3528; /** Error text and error borders on a rose band: the standard error colour. */
+  --cp-color-band-lift: rgba(255, 253, 248, 0.1); /** The faint ivory light in the middle of a band, drawn as a radial gradient over the texture (D-050). */
+  --cp-color-ink: #002159; /** Primary text and chrome ink. */
+  --cp-color-ink-muted: #67625d; /** Secondary text and placeholders. */
+  --cp-color-ink-gold: #9b6c20; /** Gold type only (≥ 18px bold), e.g. verse citations. */
+  --cp-color-ink-on-inverse: #fffdf8; /** Primary text on navy surfaces. */
+  --cp-color-ink-on-inverse-muted: #dbe6f6; /** Secondary text on navy surfaces. */
+  --cp-color-surface-page: #fbf8f3; /** Default page ground. */
+  --cp-color-surface-band: #f8f2e8; /** Ivory title bands and verse ivory. */
+  --cp-color-surface-inset: #f5ede1; /** Recessed panels and disabled fills. */
+  --cp-color-surface-raised: #ffffff; /** Raised cards and panels. */
+  --cp-color-surface-inverse: #002159; /** Navy register ground (footer, inverse chrome). */
+  --cp-color-surface-scrim: rgba(0, 33, 89, 0.85); /** Featured-card title panel scrim — navy at 85%. */
+  --cp-color-accent-gold: #c58c23; /** Ornament gold: lines, icons, diamonds. Never small type on page. */
+  --cp-color-accent-coral: #d8583f; /** Marker coral: arrows, underlines, meters. Never type. */
+  --cp-color-accent-coral-text: #a33f2b; /** Coral for text: a short line that asks the reader to look, such as "Did you mean …?" on a form. Not for errors (status.danger) or body copy (D-046). */
+  --cp-color-accent-on-inverse: #c58c23; /** Accent on navy surfaces. */
+  --cp-color-interactive: #002159; /** Primary interactive fill. */
+  --cp-color-interactive-hover: #001b43; /** Hover fill (web). Deep ink. */
+  --cp-color-interactive-pressed: #001b43; /** Pressed fill / iOS deepInk. */
+  --cp-color-status-success: #2e6b3f; /** Success on page surfaces. */
+  --cp-color-status-warning: #9b6c20; /** Warning icon and border unless a text pair passes. */
+  --cp-color-status-danger: #8e3528; /** Error text and border on page surfaces. */
+  --cp-color-status-danger-on-inverse: #f0a08e; /** Error text and border on navy surfaces (D-017). */
+  --cp-color-line: #e8e4df; /** Default hairline / separator. */
+  --cp-color-line-gold: rgba(171, 127, 54, 0.32); /** Gold rule at 32% opacity (live --cp-gold-line). */
+  --cp-color-line-on-inverse: rgba(255, 255, 255, 0.22); /** Hairline on navy (request-received footer). */
+  --cp-color-focus-ring: #0951b1; /** Focus ring on page surfaces. */
+  --cp-color-focus-on-inverse: #c58c23; /** Focus ring on navy — blue fails 3:1 on inverse. */
+  --cp-color-social-ground-navy-fill: #002159; /** Navy social ground. */
+  --cp-color-social-ground-navy-ink: #fffdf8; /** Text on the navy ground. */
+  --cp-color-social-ground-navy-ink-muted: #dbe6f6; /** Eyebrows, citations and counters on the navy ground. */
+  --cp-color-social-ground-violet-fill: #3a2150; /** Violet social ground. */
+  --cp-color-social-ground-violet-ink: #fffdf8; /** Text on the violet ground. */
+  --cp-color-social-ground-violet-ink-muted: #e4d9ee; /** Eyebrows, citations and counters on the violet ground. */
+  --cp-color-social-ground-wine-fill: #6a1c26; /** Wine social ground. */
+  --cp-color-social-ground-wine-ink: #fffdf8; /** Text on the wine ground. */
+  --cp-color-social-ground-wine-ink-muted: #f3dcd8; /** Eyebrows, citations and counters on the wine ground. */
+  --cp-color-social-ground-green-fill: #1b4838; /** Green social ground. */
+  --cp-color-social-ground-green-ink: #fffdf8; /** Text on the green ground. */
+  --cp-color-social-ground-green-ink-muted: #d9eadf; /** Eyebrows, citations and counters on the green ground. */
+  --cp-color-social-ground-peacock-fill: #0c4250; /** Peacock social ground. */
+  --cp-color-social-ground-peacock-ink: #fffdf8; /** Text on the peacock ground. */
+  --cp-color-social-ground-peacock-ink-muted: #d5e9ec; /** Eyebrows, citations and counters on the peacock ground. */
+  --cp-color-social-ground-plaster-fill: #fbf8f3; /** Plaster social ground. */
+  --cp-color-social-ground-plaster-ink: #002159; /** Text on the plaster ground. */
+  --cp-color-social-ground-plaster-ink-muted: #67625d; /** Eyebrows, citations and counters on the plaster ground. */
+  --cp-color-social-ground-rose-fill: #f4e2dc; /** Rose social ground. */
+  --cp-color-social-ground-rose-ink: #002159; /** Text on the rose ground. */
+  --cp-color-social-ground-rose-ink-muted: #6a5550; /** Eyebrows, citations and counters on the rose ground. */
+  --cp-color-social-ground-sky-fill: #dde8f5; /** Sky social ground. */
+  --cp-color-social-ground-sky-ink: #002159; /** Text on the sky ground. */
+  --cp-color-social-ground-sky-ink-muted: #4f5b6b; /** Eyebrows, citations and counters on the sky ground. */
+  --cp-color-social-ground-sage-fill: #dfe8d3; /** Sage social ground. */
+  --cp-color-social-ground-sage-ink: #002159; /** Text on the sage ground. */
+  --cp-color-social-ground-sage-ink-muted: #535f4e; /** Eyebrows, citations and counters on the sage ground. */
+  --cp-color-social-ground-wheat-fill: #f5e9cf; /** Wheat social ground. */
+  --cp-color-social-ground-wheat-ink: #002159; /** Text on the wheat ground. */
+  --cp-color-social-ground-wheat-ink-muted: #66593f; /** Eyebrows, citations and counters on the wheat ground. */
+  --cp-color-social-glow-gold: #e6b86a; /** Warm glow. */
+  --cp-color-social-glow-sky: #8cafe1; /** Cool glow. */
+  --cp-color-social-glow-rose: #d68c96; /** Rose glow. */
+  --cp-color-social-glow-teal: #2d9aa4; /** Teal glow. */
+  --cp-color-social-glow-violet: #7846aa; /** Violet glow. */
+  --cp-color-social-glow-light: #fffdf8; /** Light, for lifting deep grounds. */
+  --cp-color-social-glow-shade: #0b0a09; /** Shade, for deepening the foot of a deep ground. */
+  --cp-space-4: 4px; /** space.4 */
+  --cp-space-8: 8px; /** space.8 */
+  --cp-space-12: 12px; /** space.12 */
+  --cp-space-16: 16px; /** space.16 */
+  --cp-space-20: 20px; /** space.20 */
+  --cp-space-24: 24px; /** space.24 */
+  --cp-space-32: 32px; /** space.32 */
+  --cp-space-40: 40px; /** space.40 */
+  --cp-space-48: 48px; /** space.48 */
+  --cp-space-64: 64px; /** space.64 */
+  --cp-space-80: 80px; /** space.80 */
+  --cp-space-96: 96px; /** space.96 */
+  --cp-radius-hairline: 2px; /** radius.hairline */
+  --cp-radius-control: 4px; /** radius.control */
+  --cp-radius-card: 8px; /** radius.card */
+  --cp-radius-panel: 16px; /** Live mega menu was 14; rounding to 16 is a deliberate step-3 change. */
+  --cp-radius-pill: 999px; /** radius.pill */
+  --cp-stroke-1: 1px; /** stroke.1 */
+  --cp-stroke-3: 3px; /** Focus outline width; offset also 3. */
+  --cp-motion-duration: 180ms; /** Canonical --cp-motion-duration (adopted). */
+  --cp-motion-duration-exit: 120ms; /** Canonical --cp-motion-duration-exit (adopted). */
+  --cp-motion-duration-reduced: 0.01ms; /** prefers-reduced-motion replacement. */
+  --cp-motion-ease: cubic-bezier(0.22, 0.61, 0.36, 1); /** Canonical --cp-motion-ease (adopted). */
+  --cp-motion-distance: 6px; /** Canonical --cp-motion-distance (adopted). */
+  --cp-motion-video-fade: 600ms; /** Lesson video slides (D-034): a slide or a painting fades in. */
+  --cp-motion-video-reveal: 500ms; /** Lesson video slides (D-034): a line brightens as the narrator reaches it. */
+  --cp-motion-video-distance: 8px; /** Lesson video slides (D-034): words rise this far as they fade in. */
+  --cp-font-family-heading: 'GT Sectra', 'Source Serif 4', Georgia, serif; /** Headings below display size: title-1, title-2, title-3 and heading (D-047). GT Sectra has 300 Book, 400, 500 and 700, each with an italic; there is no 600. Apps fall back to Tiempos Headline, whose app licence is on record. */
+  --cp-font-family-display: 'GT Sectra Fine', 'GT Sectra', 'Source Serif 4', Georgia, serif; /** Impact headings at display size only (40px and up). Hairline serifs thin out below that (D-027). */
+  --cp-font-family-display-text: 'GT Sectra', 'Source Serif 4', Georgia, serif; /** The impact register below display size, where Fine would break down. Since D-047 it is the same face as font.family.heading. */
+  --cp-font-family-body: 'GT Pantheon Text', 'Source Serif 4', Georgia, serif; /** Reading text: the body and body-small roles (D-047). GT Pantheon Text, 300 to 900, each with an italic. Latin only: Cyrillic and Greek fall to the next font. Apps fall back to FK Roman Text, whose app licence is on record. */
+  --cp-font-family-verse: 'GT Sectra', 'Source Serif 4', Georgia, serif; /** Verse quotes: GT Sectra bold italic, the face ChristianPure.com serves (D-047). */
+  --cp-font-family-prayer: 'GT Sectra', 'Source Serif 4', Georgia, serif; /** Prayer inscriptions: GT Sectra Regular (D-047). */
+  --cp-font-family-ui: 'GT Pantheon Micro', 'Source Serif 4', Georgia, serif; /** Small and interface text: captions, labels, buttons, menus, dates, bylines and any text set below 16px (D-047). Apps fall back to FK Roman Text, whose app licence is on record. */
+  --cp-font-weight-light: 300; /** font.weight.light */
+  --cp-font-weight-regular: 400; /** font.weight.regular */
+  --cp-font-weight-medium: 500; /** font.weight.medium */
+  --cp-font-weight-semibold: 600; /** font.weight.semibold */
+  --cp-font-weight-bold: 700; /** font.weight.bold */
+  --cp-canvas-size-square-width: 1080px; /** Instagram and Facebook feed square. Width. */
+  --cp-canvas-size-square-height: 1080px; /** Instagram and Facebook feed square. Height. */
+  --cp-canvas-size-portrait-width: 1080px; /** Instagram feed portrait (4:5). Width. */
+  --cp-canvas-size-portrait-height: 1350px; /** Instagram feed portrait (4:5). Height. */
+  --cp-canvas-size-feed-width: 1080px; /** Instagram feed at the 3:4 grid ratio (D-029). Width. */
+  --cp-canvas-size-feed-height: 1440px; /** Instagram feed at the 3:4 grid ratio (D-029). Height. */
+  --cp-canvas-size-pin-width: 1000px; /** Pinterest standard pin (2:3, D-029). Width. */
+  --cp-canvas-size-pin-height: 1500px; /** Pinterest standard pin (2:3, D-029). Height. */
+  --cp-canvas-size-story-width: 1080px; /** Stories, Reels, TikTok, Shorts (9:16). Width. */
+  --cp-canvas-size-story-height: 1920px; /** Stories, Reels, TikTok, Shorts (9:16). Height. */
+  --cp-canvas-size-link-width: 1200px; /** Link previews and Open Graph (1.91:1). Width. */
+  --cp-canvas-size-link-height: 630px; /** Link previews and Open Graph (1.91:1). Height. */
+  --cp-canvas-size-video-width: 1280px; /** Video thumbnails (16:9). Width. */
+  --cp-canvas-size-video-height: 720px; /** Video thumbnails (16:9). Height. */
+  --cp-canvas-size-lesson-width: 1920px; /** Lesson video slides (16:9, D-034). Width. */
+  --cp-canvas-size-lesson-height: 1080px; /** Lesson video slides (16:9, D-034). Height. */
+  --cp-canvas-pad-square: 54px; /** Square and portrait feed canvases. */
+  --cp-canvas-pad-portrait: 54px; /** Square and portrait feed canvases. */
+  --cp-canvas-pad-story: 60px; /** Story canvas — taller, so it carries more edge. */
+  --cp-canvas-pad-link: 48px; /** Link canvas — short and wide, so it carries less. */
+  --cp-canvas-safe-inset: 0.05; /** Fraction of the short edge kept clear of type and logo on every side. */
+  --cp-canvas-scale-base: 1080; /** Short edge the canvas type sizes are drawn for. */
+  --cp-canvas-type-headline: 88px; /** Headline on a 1080 px short edge (about 31 pt on a phone feed). */
+  --cp-canvas-type-verse: 64px; /** Verse quote on a 1080 px short edge (about 22 pt). */
+  --cp-canvas-type-subhead: 56px; /** Subhead on a 1080 px short edge (about 20 pt). */
+  --cp-canvas-type-body: 40px; /** Body on a 1080 px short edge (about 14 pt). */
+  --cp-canvas-type-caption: 32px; /** Captions and eyebrows on a 1080 px short edge (about 11 pt). */
+  --cp-canvas-share-column: 420px; /** Width of the title column. The figure takes the rest of the link canvas (780 px). */
+  --cp-canvas-share-pad-top: 56px; /** Space above the title. */
+  --cp-canvas-share-pad-start: 52px; /** Space on the outer side of the title and logo: left in left-to-right languages, right in Arabic. */
+  --cp-canvas-share-pad-end: 44px; /** Space between the title and the figure. */
+  --cp-canvas-share-title-gap: 36px; /** Least space between the title's last line and the logo. */
+  --cp-canvas-share-title-max: 60px; /** Largest title size. The title takes the largest size that fits. */
+  --cp-canvas-share-title-break: 46px; /** Size at which one over-long word is hyphenated instead of shrinking the title further. */
+  --cp-canvas-share-title-min: 30px; /** Smallest title size. A title that does not fit at this size fails the render. */
+  --cp-canvas-share-title-line-height: 1.14; /** Line height of the share picture title. */
+  --cp-shadow-low: 0px 4px 12px 0px rgb(55 39 17 / 0.08); /** 0 4px 12px rgb(55 39 17 / 8%) */
+  --cp-shadow-card: 0px 15px 36px 0px rgb(55 39 17 / 0.09); /** 0 15px 36px rgb(55 39 17 / 9%) */
+  --cp-shadow-panel: 0px 20px 48px 0px rgb(0 33 89 / 0.16); /** 0 1.25rem 3rem rgb(0 33 89 / 16%) — mega menu / raised panels */
+  --cp-layout-content: 1000px; /** Primary content width. */
+  --cp-layout-wide: 1200px; /** Wide layout width. */
+  --cp-layout-gutter-compact: 16px; /** layout.gutter.compact */
+  --cp-layout-gutter-regular: 24px; /** layout.gutter.regular */
+  --cp-layout-gap-grid: 24px; /** Two-column category grid gap. */
+  --cp-layout-safe-area-top: env(safe-area-inset-top); /** Web resolves to env(safe-area-inset-top); Swift uses system safe area. */
+  --cp-layout-safe-area-bottom: env(safe-area-inset-bottom); /** layout.safe-area.bottom */
+  --cp-layout-safe-area-leading: env(safe-area-inset-left); /** layout.safe-area.leading */
+  --cp-layout-safe-area-trailing: env(safe-area-inset-right); /** layout.safe-area.trailing */
+  --cp-layout-breakpoint-sm: 600px; /** Mobile-first: min-width 600. */
+  --cp-layout-breakpoint-md: 782px; /** WordPress medium / adminbar breakpoint. */
+  --cp-layout-breakpoint-lg: 1024px; /** layout.breakpoint.lg */
+  --cp-layout-breakpoint-xl: 1200px; /** layout.breakpoint.xl */
+  --cp-ornament-band-1080: 65px; /** Band weight on the three 1080 px canvases. */
+  --cp-ornament-band-1200: 52px; /** Band weight on the 1200 px link canvas. */
+  --cp-ornament-clearance-ratio: 0.85; /** Clearance between the strip's lowest point and the first line of type, as a fraction of the canvas pad. */
+  --cp-ornament-lock-ratio: 0.7; /** Clearance kept under the content column for the logo, as a fraction of the canvas pad. */
+  --cp-ornament-rule-thickness: 2px; /** Every accent rule on a social card. */
+  --cp-ornament-rule-citation: 44px; /** Gold rule before a verse or prayer citation. */
+  --cp-ornament-rule-cta: 40px; /** Coral rule before a call to action. */
+  --cp-ornament-rule-marker: 26px; /** Gold rule before a numbered list marker. */
+  --cp-ornament-gap-rule: 18px; /** Accent rule to the text beside it. */
+  --cp-ornament-gap-marker: 14px; /** Marker rule to its number. */
+  --cp-ornament-gap-item: 22px; /** Marker group to the list item's text. */
+  --cp-ornament-gap-block: 30px; /** A citation or list block away from the copy above it. */
+  --cp-ornament-lead-title: 18px; /** Above a title-1 heading. */
+  --cp-ornament-lead-prayer: 20px; /** Above a prayer heading. */
+  --cp-ornament-lead-display: 22px; /** Above a verse or display heading. */
+  --cp-ornament-line-height-body: 1.44; /** Body copy on a social card. */
+  --cp-ornament-line-height-item: 1.4; /** Numbered list text on a social card. */
+  --cp-ornament-line-height-prayer: 1.16; /** Prayer heading at display size. The prayer role's own 1.5 is for running prayer text. */
+  --cp-gap-bound: 0.25rem; /** Parts of one thing: a name and its meaning, a tile's title and its sub-line (D-055). */
+  --cp-gap-label: 0.5rem; /** A label and what it names: label and field, small heading and its text, field and its Send button (D-055). */
+  --cp-gap-check: 0.75rem; /** A tick box or radio button and its words (D-055; owner, 12 Nov 2026). */
+  --cp-gap-item: 1rem; /** Things of the same kind in one group: paragraphs, tiles, cards in a row (D-055). */
+  --cp-gap-row: 1rem; /** Above and below a line that divides rows; always the same on both sides, equal to item (D-055). */
+  --cp-gap-group: clamp(1.5rem, 1.314rem + 0.762vw, 2rem); /** One group and the next: the words and the form, one labelled control and the next. 24 on a phone, 32 on a laptop (D-055). */
+  --cp-gap-section: clamp(3rem, 2.629rem + 1.524vw, 4rem); /** One section of a page and the next. 48 on a phone, 64 on a laptop (D-055). */
+  --cp-inset-chip: 0.5rem; /** Above and below the words of a chip, a menu row, a text field (D-055). */
+  --cp-inset-field: 1rem; /** Left and right of the words in a text field or menu (D-055). */
+  --cp-inset-tile: 1rem; /** Inside a small tile or option (D-055). */
+  --cp-inset-card: 1.5rem; /** Inside a card (D-055). */
+  --cp-inset-box: clamp(1.5rem, 1.129rem + 1.524vw, 2.5rem); /** Inside a box that holds a whole piece: the prayer card, an offer. 24 on a phone, 40 on a laptop (D-055). */
+  --cp-inset-band: clamp(3rem, 2.257rem + 3.048vw, 5rem); /** Above and below the content of a full-width band. 48 on a phone, 80 on a laptop (D-055). */
+  --cp-gutter: clamp(1.25rem, 1.157rem + 0.381vw, 1.5rem); /** The page's side margin. 20 on a phone, 24 on a laptop (D-055). */
+  --cp-font-measure-prose: 68ch; /** Maximum measure for body prose. */
+  --cp-font-role-display-line-height: 1.08; /** typography.role.display.lineHeight */
+  --cp-font-role-display-font-weight: 300; /** typography.role.display.fontWeight */
+  --cp-font-role-display-font-family: 'GT Sectra Fine', 'GT Sectra', 'Source Serif 4', Georgia, serif; /** typography.role.display.fontFamily */
+  --cp-font-role-title-1-line-height: 1.12; /** typography.role.title-1.lineHeight */
+  --cp-font-role-title-1-font-weight: 400; /** typography.role.title-1.fontWeight */
+  --cp-font-role-title-1-font-family: 'GT Sectra', 'Source Serif 4', Georgia, serif; /** typography.role.title-1.fontFamily */
+  --cp-font-role-title-2-line-height: 1.2; /** typography.role.title-2.lineHeight */
+  --cp-font-role-title-2-font-weight: 400; /** typography.role.title-2.fontWeight */
+  --cp-font-role-title-2-font-family: 'GT Sectra', 'Source Serif 4', Georgia, serif; /** typography.role.title-2.fontFamily */
+  --cp-font-role-title-3-line-height: 1.25; /** typography.role.title-3.lineHeight */
+  --cp-font-role-title-3-font-weight: 400; /** typography.role.title-3.fontWeight */
+  --cp-font-role-title-3-font-family: 'GT Sectra', 'Source Serif 4', Georgia, serif; /** typography.role.title-3.fontFamily */
+  --cp-font-role-heading-line-height: 1.3; /** typography.role.heading.lineHeight */
+  --cp-font-role-heading-font-weight: 500; /** typography.role.heading.fontWeight */
+  --cp-font-role-heading-font-family: 'GT Sectra', 'Source Serif 4', Georgia, serif; /** typography.role.heading.fontFamily */
+  --cp-font-role-body-line-height: 1.6; /** typography.role.body.lineHeight */
+  --cp-font-role-body-font-weight: 400; /** typography.role.body.fontWeight */
+  --cp-font-role-body-font-family: 'GT Pantheon Text', 'Source Serif 4', Georgia, serif; /** typography.role.body.fontFamily */
+  --cp-font-role-body-small-line-height: 1.5; /** typography.role.body-small.lineHeight */
+  --cp-font-role-body-small-font-weight: 400; /** typography.role.body-small.fontWeight */
+  --cp-font-role-body-small-font-family: 'GT Pantheon Text', 'Source Serif 4', Georgia, serif; /** typography.role.body-small.fontFamily */
+  --cp-font-role-caption-line-height: 1.4; /** typography.role.caption.lineHeight */
+  --cp-font-role-caption-font-weight: 400; /** typography.role.caption.fontWeight */
+  --cp-font-role-caption-font-family: 'GT Pantheon Micro', 'Source Serif 4', Georgia, serif; /** typography.role.caption.fontFamily */
+  --cp-font-role-label-line-height: 1.4; /** typography.role.label.lineHeight */
+  --cp-font-role-label-letter-spacing: 0.04em; /** typography.role.label.letterSpacing */
+  --cp-font-role-label-font-weight: 500; /** typography.role.label.fontWeight */
+  --cp-font-role-label-font-family: 'GT Pantheon Micro', 'Source Serif 4', Georgia, serif; /** typography.role.label.fontFamily */
+  --cp-font-role-verse-line-height: 1.25; /** typography.role.verse.lineHeight */
+  --cp-font-role-verse-font-weight: 700; /** typography.role.verse.fontWeight */
+  --cp-font-role-verse-font-family: 'GT Sectra', 'Source Serif 4', Georgia, serif; /** typography.role.verse.fontFamily */
+  --cp-font-role-prayer-line-height: 1.5; /** typography.role.prayer.lineHeight */
+  --cp-font-role-prayer-font-weight: 400; /** typography.role.prayer.fontWeight */
+  --cp-font-role-prayer-font-family: 'GT Sectra', 'Source Serif 4', Georgia, serif; /** typography.role.prayer.fontFamily */
+  --cp-band-texture-width: 360px; /** Stone texture tile width: the tile's own size, never scaled. */
+  --cp-band-texture-height: 600px; /** Stone texture tile height. */
+  --cp-button-primary-background: #002159; /** Primary fill. */
+  --cp-button-primary-background-hover: #001b43; /** Primary hover fill (same deep ink as pressed; interactive.hover is web-only). */
+  --cp-button-primary-background-pressed: #001b43; /** Primary pressed fill. */
+  --cp-button-primary-background-disabled: #f5ede1; /** Disabled fill — not opacity. */
+  --cp-button-primary-label: #fffdf8; /** Primary label on navy. */
+  --cp-button-primary-label-disabled: #67625d; /** Disabled label. */
+  --cp-button-secondary-background: #ffffff; /** Secondary fill. */
+  --cp-button-secondary-background-hover: #f8f2e8; /** Secondary hover. */
+  --cp-button-secondary-background-pressed: #f5ede1; /** Secondary pressed. */
+  --cp-button-secondary-background-disabled: #f5ede1; /** Secondary disabled fill. */
+  --cp-button-secondary-label: #002159; /** Secondary label. */
+  --cp-button-secondary-label-disabled: #67625d; /** Secondary disabled label. */
+  --cp-button-secondary-border: #e8e4df; /** Secondary border. */
+  --cp-button-min-height-regular: 44px; /** Regular target ≥ 44. */
+  --cp-button-min-height-compact: 44px; /** Compact still meets 44 target. */
+  --cp-button-padding-inline-regular: 24px; /** Regular horizontal padding. */
+  --cp-button-padding-inline-compact: 16px; /** Compact horizontal padding. */
+  --cp-button-radius: 4px; /** Control radius. */
+  --cp-button-icon-size: 20px; /** Icon-only glyph size; hit area is minHeight. */
+  --cp-button-lapis-ground: #002159; /** Lapis primary (D-043): ground under the lapis image, and its fallback. */
+  --cp-button-lapis-label: #fffdf8; /** Lapis label. Not remapped on navy: the lapis button keeps its own colours in every register. */
+  --cp-button-lapis-gold: #c58c23; /** Lapis frame and rim (D-041). */
+  --cp-button-lapis-shade: #00081e; /** Lapis inner and pressed shadow. */
+  --cp-button-lapis-lamp: #ffe2aa; /** Raking light screened onto lapis. */
+  --cp-button-limestone-ground: #f8f2e8; /** Limestone secondary (D-043): ground under the limestone texture. */
+  --cp-button-limestone-label: #002159; /** Limestone label. Not remapped on navy. */
+  --cp-button-limestone-gold: #9b6c20; /** Limestone frame (D-041). */
+  --cp-button-limestone-rim: #ab7f36; /** Limestone gold rim, the live --cp-gold-line hue. */
+  --cp-button-limestone-shade: #372711; /** Limestone shadow, the hue of shadow.low. */
+  --cp-button-limestone-highlight: #ffffff; /** Limestone top highlight. */
+  --cp-button-limestone-lamp: #ffecc4; /** Raking light soft-lit onto limestone. */
+  --cp-button-limestone-tile: 360px; /** Limestone texture tile size. */
+  --cp-button-frame-min-height: 56px; /** Height of a framed button; the frame needs the room (D-043). */
+  --cp-button-frame-inset: 5px; /** Frame distance from the button edge. */
+  --cp-button-frame-pitch: 3px; /** Offset of the inner bar from the outer one (bars 1 px, 2 px apart). */
+  --cp-button-frame-start: 4.2px; /** Where the bars leave the corner ring. */
+  --cp-button-frame-rest-long: 24px; /** Reach of the long-edge bars at rest, from the corner. */
+  --cp-button-frame-rest-short: 16px; /** Reach of the short-edge bars at rest, from the corner. */
+  --cp-button-frame-unit: 12px; /** Box of a corner ring and of the budded cross. */
+  --cp-button-frame-sign-gap: 5px; /** Gap between the bar ends and the middle of the long edge, where the cross sits. */
+  --cp-button-frame-opacity-rest: 0.25; /** Frame strength at rest (D-041). */
+  --cp-button-frame-opacity-closed: 0.6; /** Frame strength while the frame is closed (D-041). */
+  --cp-button-lamp-hover: 70px; /** Raking light radius on hover, focus and tap. */
+  --cp-button-lamp-pressed: 44px; /** Raking light radius while pressed. */
+  --cp-button-motion-run: 620ms; /** Long-edge bars run to the middle. */
+  --cp-button-motion-side: 400ms; /** Short-edge bars run to the middle. */
+  --cp-button-motion-side-delay: 160ms; /** Short-edge bars start after the long ones. */
+  --cp-button-motion-sign: 420ms; /** The budded cross scales in. */
+  --cp-button-motion-sign-delay: 460ms; /** The cross waits for the bars. */
+  --cp-button-motion-lamp: 420ms; /** Raking light grows and fades. */
+  --cp-button-motion-tap: 1100ms; /** How long a tap holds the frame closed on a touch screen (D-042). */
+  --cp-button-motion-spring: cubic-bezier(0.34, 1.4, 0.5, 1); /** Overshoot for the cross. */
+  --cp-button-motion-walk: 1600ms; /** The light walks across a busy button and back. */
+  --cp-card-background: #ffffff; /** Card surface. */
+  --cp-card-radius: 8px; /** Card radius. */
+  --cp-card-padding: 24px; /** Card padding. */
+  --cp-card-shadow: 0px 15px 36px 0px rgb(55 39 17 / 0.09); /** Card elevation. */
+  --cp-dropdown-trigger-background: #ffffff; /** Menu-button and select fill. */
+  --cp-dropdown-trigger-border: #e8e4df; /** Trigger border. */
+  --cp-dropdown-trigger-label: #002159; /** Trigger label. */
+  --cp-dropdown-trigger-min-height: 44px; /** Trigger min height. */
+  --cp-dropdown-trigger-radius: 4px; /** Trigger radius. */
+  --cp-dropdown-menu-background: #ffffff; /** Raised panel fill. */
+  --cp-dropdown-menu-radius: 16px; /** Panel radius (mega-menu kinship). */
+  --cp-dropdown-menu-shadow: 0px 20px 48px 0px rgb(0 33 89 / 0.16); /** Panel elevation. */
+  --cp-dropdown-menu-item-hover: #f8f2e8; /** Item hover fill — hit area equals visible box. */
+  --cp-dropdown-menu-marker: #c58c23; /** Selected-item gold diamond. */
+  --cp-dropdown-invalid-border: #8e3528; /** Native select invalid border. */
+  --cp-input-background: #ffffff; /** Field fill. */
+  --cp-input-border: #e8e4df; /** Default border. */
+  --cp-input-border-error: #8e3528; /** Error border. */
+  --cp-input-label: #002159; /** Field label. */
+  --cp-input-helper: #67625d; /** Helper text. */
+  --cp-input-error: #8e3528; /** Error text. */
+  --cp-input-min-height: 44px; /** Control min height. */
+  --cp-input-radius: 4px; /** Control radius. */
+  --cp-link-label: #002159; /** Text link label — never coral. */
+  --cp-link-marker: #d8583f; /** Arrow or underline marker. */
+  --cp-progress-track-background: #f5ede1; /** Linear track. */
+  --cp-progress-track-border: #e8e4df; /** Track edge for 3:1. */
+  --cp-progress-track-height: 8px; /** Linear track height. */
+  --cp-progress-fill: #002159; /** Linear fill — navy. */
+  --cp-progress-step-size: 32px; /** Medallion diameter. */
+  --cp-progress-step-completed: #002159; /** Completed medallion fill. */
+  --cp-progress-step-completed-label: #fffdf8; /** Completed number. */
+  --cp-progress-step-current-ring: #c58c23; /** Current-step gold ring. */
+  --cp-progress-step-upcoming-border: #e8e4df; /** Upcoming border. */
+  --cp-progress-step-upcoming-background: #ffffff; /** Upcoming medallion fill. Navy register swaps to a navy disc (D-017). */
+  --cp-progress-step-upcoming-label: #002159; /** Upcoming number. Navy register swaps to ivory (D-017). */
+  --cp-progress-step-locked-background: #f5ede1; /** Locked medallion. */
+  --cp-progress-step-locked-label: #67625d; /** Locked number and caption. */
+  --cp-progress-spinner-track: #e8e4df; /** Spinner track. */
+  --cp-progress-spinner-head: #002159; /** Spinner head. */
+  --cp-progress-spinner-size: 24px; /** Regular spinner. */
+  --cp-progress-spinner-size-compact: 16px; /** Compact spinner for buttons. */
+  --cp-selection-control-size: 20px; /** Radio/checkbox control size. */
+  --cp-selection-control-border: #002159; /** Unchecked border. */
+  --cp-selection-control-background: #ffffff; /** Unchecked fill. */
+  --cp-selection-control-checked-background: #002159; /** Checked fill — navy. */
+  --cp-selection-control-mark: #fffdf8; /** Dot / check / indeterminate mark. */
+  --cp-selection-control-disabled-border: #e8e4df; /** Disabled border. */
+  --cp-selection-control-disabled-background: #f5ede1; /** Disabled fill. */
+  --cp-selection-control-disabled-checked: #67625d; /** Disabled checked fill. */
+  --cp-selection-control-error-border: #8e3528; /** Group error border. */
+  --cp-selection-label: #002159; /** Adjacent label. */
+  --cp-selection-error: #8e3528; /** Group error text. */
+  /* Fluid typography (390–1440 viewport) */
+  --cp-font-body-size: clamp(17px, calc(16.6286px + 0.0952vw), 18px);
+  --cp-font-body-small-size: clamp(15px, calc(14.6286px + 0.0952vw), 16px);
+  --cp-font-caption-size: clamp(13px, calc(12.6286px + 0.0952vw), 14px);
+  --cp-font-display-size: clamp(40px, calc(32.5714px + 1.9048vw), 60px);
+  --cp-font-heading-size: clamp(18px, calc(17.2571px + 0.1905vw), 20px);
+  --cp-font-label-size: clamp(13px, calc(12.6286px + 0.0952vw), 14px);
+  --cp-font-prayer-size: clamp(18px, calc(17.2571px + 0.1905vw), 20px);
+  --cp-font-title-1-size: clamp(32px, calc(27.5429px + 1.1429vw), 44px);
+  --cp-font-title-2-size: clamp(26px, calc(23.7714px + 0.5714vw), 32px);
+  --cp-font-title-3-size: clamp(21px, calc(19.8857px + 0.2857vw), 24px);
+  --cp-font-verse-size: clamp(20px, calc(17.1771px + 0.7238vw), 27.6px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --cp-motion-duration: 0.01ms;
+    --cp-motion-duration-exit: 0.01ms;
+  }
+}
+
+/* Standard register: .cp-surface-standard and light panels inside navy (tokens/modes/inverse.tokens.json, D-017) */
+.cp-surface-standard,
+.cp-surface-inverse :where(.cp-menu__list, .cp-card:not(.cp-surface-inverse) > *) {
+  --cp-color-ink: #002159;
+  --cp-color-ink-muted: #67625d;
+  --cp-color-line: #e8e4df;
+  --cp-color-accent-gold: #c58c23;
+  --cp-color-accent-coral: #d8583f;
+  --cp-color-accent-coral-text: #a33f2b;
+  --cp-color-interactive: #002159;
+  --cp-color-interactive-hover: #001b43;
+  --cp-color-interactive-pressed: #001b43;
+  --cp-color-status-danger: #8e3528;
+  --cp-color-focus-ring: #0951b1;
+  --cp-button-primary-background: #002159;
+  --cp-button-primary-background-hover: #001b43;
+  --cp-button-primary-background-pressed: #001b43;
+  --cp-button-primary-background-disabled: #f5ede1;
+  --cp-button-primary-label: #fffdf8;
+  --cp-button-primary-label-disabled: #67625d;
+  --cp-button-secondary-background: #ffffff;
+  --cp-button-secondary-background-hover: #f8f2e8;
+  --cp-button-secondary-background-pressed: #f5ede1;
+  --cp-button-secondary-background-disabled: #f5ede1;
+  --cp-button-secondary-label: #002159;
+  --cp-button-secondary-label-disabled: #67625d;
+  --cp-button-secondary-border: #e8e4df;
+  --cp-link-label: #002159;
+  --cp-link-marker: #d8583f;
+  --cp-input-label: #002159;
+  --cp-input-helper: #67625d;
+  --cp-input-error: #8e3528;
+  --cp-input-border-error: #8e3528;
+  --cp-selection-control-border: #002159;
+  --cp-selection-control-checked-background: #002159;
+  --cp-selection-control-mark: #fffdf8;
+  --cp-selection-control-error-border: #8e3528;
+  --cp-selection-label: #002159;
+  --cp-selection-error: #8e3528;
+  --cp-progress-track-background: #f5ede1;
+  --cp-progress-track-border: #e8e4df;
+  --cp-progress-fill: #002159;
+  --cp-progress-step-completed: #002159;
+  --cp-progress-step-completed-label: #fffdf8;
+  --cp-progress-step-current-ring: #c58c23;
+  --cp-progress-step-upcoming-border: #e8e4df;
+  --cp-progress-step-upcoming-background: #ffffff;
+  --cp-progress-step-upcoming-label: #002159;
+  --cp-progress-spinner-track: #e8e4df;
+  --cp-progress-spinner-head: #002159;
+}
+
+/* White boxes inside navy keep standard ink; their focus ring draws over navy, so it stays the register ring */
+.cp-surface-inverse :where(.cp-card:not(.cp-surface-inverse), .cp-menu__trigger, .cp-input__control, .cp-select) {
+  --cp-color-ink: #002159;
+  --cp-color-ink-muted: #67625d;
+  --cp-color-line: #e8e4df;
+  --cp-color-accent-gold: #c58c23;
+  --cp-color-accent-coral: #d8583f;
+  --cp-color-accent-coral-text: #a33f2b;
+  --cp-color-interactive: #002159;
+  --cp-color-interactive-hover: #001b43;
+  --cp-color-interactive-pressed: #001b43;
+  --cp-color-status-danger: #8e3528;
+  --cp-button-primary-background: #002159;
+  --cp-button-primary-background-hover: #001b43;
+  --cp-button-primary-background-pressed: #001b43;
+  --cp-button-primary-background-disabled: #f5ede1;
+  --cp-button-primary-label: #fffdf8;
+  --cp-button-primary-label-disabled: #67625d;
+  --cp-button-secondary-background: #ffffff;
+  --cp-button-secondary-background-hover: #f8f2e8;
+  --cp-button-secondary-background-pressed: #f5ede1;
+  --cp-button-secondary-background-disabled: #f5ede1;
+  --cp-button-secondary-label: #002159;
+  --cp-button-secondary-label-disabled: #67625d;
+  --cp-button-secondary-border: #e8e4df;
+  --cp-link-label: #002159;
+  --cp-link-marker: #d8583f;
+  --cp-input-label: #002159;
+  --cp-input-helper: #67625d;
+  --cp-input-error: #8e3528;
+  --cp-input-border-error: #8e3528;
+  --cp-selection-control-border: #002159;
+  --cp-selection-control-checked-background: #002159;
+  --cp-selection-control-mark: #fffdf8;
+  --cp-selection-control-error-border: #8e3528;
+  --cp-selection-label: #002159;
+  --cp-selection-error: #8e3528;
+  --cp-progress-track-background: #f5ede1;
+  --cp-progress-track-border: #e8e4df;
+  --cp-progress-fill: #002159;
+  --cp-progress-step-completed: #002159;
+  --cp-progress-step-completed-label: #fffdf8;
+  --cp-progress-step-current-ring: #c58c23;
+  --cp-progress-step-upcoming-border: #e8e4df;
+  --cp-progress-step-upcoming-background: #ffffff;
+  --cp-progress-step-upcoming-label: #002159;
+  --cp-progress-spinner-track: #e8e4df;
+  --cp-progress-spinner-head: #002159;
+}
+
+/* Navy register (tokens/modes/inverse.tokens.json, D-017) */
+.cp-surface-inverse {
+  --cp-color-ink: #fffdf8;
+  --cp-color-ink-muted: #dbe6f6;
+  --cp-color-line: rgba(255, 255, 255, 0.22);
+  --cp-color-accent-gold: #c58c23;
+  --cp-color-accent-coral: #c58c23;
+  --cp-color-accent-coral-text: #f0a08e;
+  --cp-color-interactive: #fffdf8;
+  --cp-color-interactive-hover: #dbe6f6;
+  --cp-color-interactive-pressed: #dbe6f6;
+  --cp-color-status-danger: #f0a08e;
+  --cp-color-focus-ring: #c58c23;
+  --cp-button-primary-background: #fffdf8;
+  --cp-button-primary-background-hover: #dbe6f6;
+  --cp-button-primary-background-pressed: #dbe6f6;
+  --cp-button-primary-background-disabled: rgba(255, 255, 255, 0.22);
+  --cp-button-primary-label: #002159;
+  --cp-button-primary-label-disabled: #dbe6f6;
+  --cp-button-secondary-background: #002159;
+  --cp-button-secondary-background-hover: rgba(255, 255, 255, 0.22);
+  --cp-button-secondary-background-pressed: rgba(255, 255, 255, 0.22);
+  --cp-button-secondary-background-disabled: #002159;
+  --cp-button-secondary-label: #fffdf8;
+  --cp-button-secondary-label-disabled: #dbe6f6;
+  --cp-button-secondary-border: #dbe6f6;
+  --cp-link-label: #fffdf8;
+  --cp-link-marker: #c58c23;
+  --cp-input-label: #fffdf8;
+  --cp-input-helper: #dbe6f6;
+  --cp-input-error: #f0a08e;
+  --cp-input-border-error: #f0a08e;
+  --cp-selection-control-border: #fffdf8;
+  --cp-selection-control-checked-background: #fffdf8;
+  --cp-selection-control-mark: #002159;
+  --cp-selection-control-error-border: #f0a08e;
+  --cp-selection-label: #fffdf8;
+  --cp-selection-error: #f0a08e;
+  --cp-progress-track-background: rgba(255, 255, 255, 0.22);
+  --cp-progress-track-border: rgba(255, 255, 255, 0.22);
+  --cp-progress-fill: #fffdf8;
+  --cp-progress-step-completed: #fffdf8;
+  --cp-progress-step-completed-label: #002159;
+  --cp-progress-step-current-ring: #c58c23;
+  --cp-progress-step-upcoming-border: #dbe6f6;
+  --cp-progress-step-upcoming-background: #002159;
+  --cp-progress-step-upcoming-label: #fffdf8;
+  --cp-progress-spinner-track: rgba(255, 255, 255, 0.22);
+  --cp-progress-spinner-head: #fffdf8;
+}
+
+/* Colour bands (tokens/semantic/band.tokens.json, D-050): deep bands are the navy register in their own colours; pale bands keep standard ink */
+.cp-surface-wine {
+  --cp-color-ink: #fffdf8;
+  --cp-color-ink-muted: #f3dcd8;
+  --cp-color-line: rgba(255, 255, 255, 0.22);
+  --cp-color-accent-gold: #c58c23;
+  --cp-color-accent-coral: #e6b86a;
+  --cp-color-accent-coral-text: #f3b3a3;
+  --cp-color-interactive: #fffdf8;
+  --cp-color-interactive-hover: #f3dcd8;
+  --cp-color-interactive-pressed: #f3dcd8;
+  --cp-color-status-danger: #f3b3a3;
+  --cp-color-focus-ring: #e6b86a;
+  --cp-button-primary-background: #fffdf8;
+  --cp-button-primary-background-hover: #f3dcd8;
+  --cp-button-primary-background-pressed: #f3dcd8;
+  --cp-button-primary-background-disabled: rgba(255, 255, 255, 0.22);
+  --cp-button-primary-label: #6a1c26;
+  --cp-button-primary-label-disabled: #f3dcd8;
+  --cp-button-secondary-background: #6a1c26;
+  --cp-button-secondary-background-hover: rgba(255, 255, 255, 0.22);
+  --cp-button-secondary-background-pressed: rgba(255, 255, 255, 0.22);
+  --cp-button-secondary-background-disabled: #6a1c26;
+  --cp-button-secondary-label: #fffdf8;
+  --cp-button-secondary-label-disabled: #f3dcd8;
+  --cp-button-secondary-border: #f3dcd8;
+  --cp-link-label: #fffdf8;
+  --cp-link-marker: #e6b86a;
+  --cp-input-label: #fffdf8;
+  --cp-input-helper: #f3dcd8;
+  --cp-input-error: #f3b3a3;
+  --cp-input-border-error: #f3b3a3;
+  --cp-selection-control-border: #fffdf8;
+  --cp-selection-control-checked-background: #fffdf8;
+  --cp-selection-control-mark: #6a1c26;
+  --cp-selection-control-error-border: #f3b3a3;
+  --cp-selection-label: #fffdf8;
+  --cp-selection-error: #f3b3a3;
+  --cp-progress-track-background: rgba(255, 255, 255, 0.22);
+  --cp-progress-track-border: rgba(255, 255, 255, 0.22);
+  --cp-progress-fill: #fffdf8;
+  --cp-progress-step-completed: #fffdf8;
+  --cp-progress-step-completed-label: #6a1c26;
+  --cp-progress-step-current-ring: #e6b86a;
+  --cp-progress-step-upcoming-border: #f3dcd8;
+  --cp-progress-step-upcoming-background: #6a1c26;
+  --cp-progress-step-upcoming-label: #fffdf8;
+  --cp-progress-spinner-track: rgba(255, 255, 255, 0.22);
+  --cp-progress-spinner-head: #fffdf8;
+}
+
+.cp-surface-green {
+  --cp-color-ink: #fffdf8;
+  --cp-color-ink-muted: #d9eadf;
+  --cp-color-line: rgba(255, 255, 255, 0.22);
+  --cp-color-accent-gold: #c58c23;
+  --cp-color-accent-coral: #e6b86a;
+  --cp-color-accent-coral-text: #f3b3a3;
+  --cp-color-interactive: #fffdf8;
+  --cp-color-interactive-hover: #d9eadf;
+  --cp-color-interactive-pressed: #d9eadf;
+  --cp-color-status-danger: #f3b3a3;
+  --cp-color-focus-ring: #e6b86a;
+  --cp-button-primary-background: #fffdf8;
+  --cp-button-primary-background-hover: #d9eadf;
+  --cp-button-primary-background-pressed: #d9eadf;
+  --cp-button-primary-background-disabled: rgba(255, 255, 255, 0.22);
+  --cp-button-primary-label: #1b4838;
+  --cp-button-primary-label-disabled: #d9eadf;
+  --cp-button-secondary-background: #1b4838;
+  --cp-button-secondary-background-hover: rgba(255, 255, 255, 0.22);
+  --cp-button-secondary-background-pressed: rgba(255, 255, 255, 0.22);
+  --cp-button-secondary-background-disabled: #1b4838;
+  --cp-button-secondary-label: #fffdf8;
+  --cp-button-secondary-label-disabled: #d9eadf;
+  --cp-button-secondary-border: #d9eadf;
+  --cp-link-label: #fffdf8;
+  --cp-link-marker: #e6b86a;
+  --cp-input-label: #fffdf8;
+  --cp-input-helper: #d9eadf;
+  --cp-input-error: #f3b3a3;
+  --cp-input-border-error: #f3b3a3;
+  --cp-selection-control-border: #fffdf8;
+  --cp-selection-control-checked-background: #fffdf8;
+  --cp-selection-control-mark: #1b4838;
+  --cp-selection-control-error-border: #f3b3a3;
+  --cp-selection-label: #fffdf8;
+  --cp-selection-error: #f3b3a3;
+  --cp-progress-track-background: rgba(255, 255, 255, 0.22);
+  --cp-progress-track-border: rgba(255, 255, 255, 0.22);
+  --cp-progress-fill: #fffdf8;
+  --cp-progress-step-completed: #fffdf8;
+  --cp-progress-step-completed-label: #1b4838;
+  --cp-progress-step-current-ring: #e6b86a;
+  --cp-progress-step-upcoming-border: #d9eadf;
+  --cp-progress-step-upcoming-background: #1b4838;
+  --cp-progress-step-upcoming-label: #fffdf8;
+  --cp-progress-spinner-track: rgba(255, 255, 255, 0.22);
+  --cp-progress-spinner-head: #fffdf8;
+}
+
+.cp-surface-peacock {
+  --cp-color-ink: #fffdf8;
+  --cp-color-ink-muted: #d5e9ec;
+  --cp-color-line: rgba(255, 255, 255, 0.22);
+  --cp-color-accent-gold: #c58c23;
+  --cp-color-accent-coral: #e6b86a;
+  --cp-color-accent-coral-text: #f3b3a3;
+  --cp-color-interactive: #fffdf8;
+  --cp-color-interactive-hover: #d5e9ec;
+  --cp-color-interactive-pressed: #d5e9ec;
+  --cp-color-status-danger: #f3b3a3;
+  --cp-color-focus-ring: #e6b86a;
+  --cp-button-primary-background: #fffdf8;
+  --cp-button-primary-background-hover: #d5e9ec;
+  --cp-button-primary-background-pressed: #d5e9ec;
+  --cp-button-primary-background-disabled: rgba(255, 255, 255, 0.22);
+  --cp-button-primary-label: #0c4250;
+  --cp-button-primary-label-disabled: #d5e9ec;
+  --cp-button-secondary-background: #0c4250;
+  --cp-button-secondary-background-hover: rgba(255, 255, 255, 0.22);
+  --cp-button-secondary-background-pressed: rgba(255, 255, 255, 0.22);
+  --cp-button-secondary-background-disabled: #0c4250;
+  --cp-button-secondary-label: #fffdf8;
+  --cp-button-secondary-label-disabled: #d5e9ec;
+  --cp-button-secondary-border: #d5e9ec;
+  --cp-link-label: #fffdf8;
+  --cp-link-marker: #e6b86a;
+  --cp-input-label: #fffdf8;
+  --cp-input-helper: #d5e9ec;
+  --cp-input-error: #f3b3a3;
+  --cp-input-border-error: #f3b3a3;
+  --cp-selection-control-border: #fffdf8;
+  --cp-selection-control-checked-background: #fffdf8;
+  --cp-selection-control-mark: #0c4250;
+  --cp-selection-control-error-border: #f3b3a3;
+  --cp-selection-label: #fffdf8;
+  --cp-selection-error: #f3b3a3;
+  --cp-progress-track-background: rgba(255, 255, 255, 0.22);
+  --cp-progress-track-border: rgba(255, 255, 255, 0.22);
+  --cp-progress-fill: #fffdf8;
+  --cp-progress-step-completed: #fffdf8;
+  --cp-progress-step-completed-label: #0c4250;
+  --cp-progress-step-current-ring: #e6b86a;
+  --cp-progress-step-upcoming-border: #d5e9ec;
+  --cp-progress-step-upcoming-background: #0c4250;
+  --cp-progress-step-upcoming-label: #fffdf8;
+  --cp-progress-spinner-track: rgba(255, 255, 255, 0.22);
+  --cp-progress-spinner-head: #fffdf8;
+}
+
+.cp-surface-violet {
+  --cp-color-ink: #fffdf8;
+  --cp-color-ink-muted: #e4d9ee;
+  --cp-color-line: rgba(255, 255, 255, 0.22);
+  --cp-color-accent-gold: #c58c23;
+  --cp-color-accent-coral: #e6b86a;
+  --cp-color-accent-coral-text: #f3b3a3;
+  --cp-color-interactive: #fffdf8;
+  --cp-color-interactive-hover: #e4d9ee;
+  --cp-color-interactive-pressed: #e4d9ee;
+  --cp-color-status-danger: #f3b3a3;
+  --cp-color-focus-ring: #e6b86a;
+  --cp-button-primary-background: #fffdf8;
+  --cp-button-primary-background-hover: #e4d9ee;
+  --cp-button-primary-background-pressed: #e4d9ee;
+  --cp-button-primary-background-disabled: rgba(255, 255, 255, 0.22);
+  --cp-button-primary-label: #3a2150;
+  --cp-button-primary-label-disabled: #e4d9ee;
+  --cp-button-secondary-background: #3a2150;
+  --cp-button-secondary-background-hover: rgba(255, 255, 255, 0.22);
+  --cp-button-secondary-background-pressed: rgba(255, 255, 255, 0.22);
+  --cp-button-secondary-background-disabled: #3a2150;
+  --cp-button-secondary-label: #fffdf8;
+  --cp-button-secondary-label-disabled: #e4d9ee;
+  --cp-button-secondary-border: #e4d9ee;
+  --cp-link-label: #fffdf8;
+  --cp-link-marker: #e6b86a;
+  --cp-input-label: #fffdf8;
+  --cp-input-helper: #e4d9ee;
+  --cp-input-error: #f3b3a3;
+  --cp-input-border-error: #f3b3a3;
+  --cp-selection-control-border: #fffdf8;
+  --cp-selection-control-checked-background: #fffdf8;
+  --cp-selection-control-mark: #3a2150;
+  --cp-selection-control-error-border: #f3b3a3;
+  --cp-selection-label: #fffdf8;
+  --cp-selection-error: #f3b3a3;
+  --cp-progress-track-background: rgba(255, 255, 255, 0.22);
+  --cp-progress-track-border: rgba(255, 255, 255, 0.22);
+  --cp-progress-fill: #fffdf8;
+  --cp-progress-step-completed: #fffdf8;
+  --cp-progress-step-completed-label: #3a2150;
+  --cp-progress-step-current-ring: #e6b86a;
+  --cp-progress-step-upcoming-border: #e4d9ee;
+  --cp-progress-step-upcoming-background: #3a2150;
+  --cp-progress-step-upcoming-label: #fffdf8;
+  --cp-progress-spinner-track: rgba(255, 255, 255, 0.22);
+  --cp-progress-spinner-head: #fffdf8;
+}
+
+.cp-surface-sage {
+  --cp-color-ink-muted: #4b5546;
+  --cp-input-helper: #4b5546;
+  --cp-progress-step-locked-label: #4b5546;
+  --cp-color-accent-coral: #a33f2b;
+  --cp-link-marker: #a33f2b;
+  --cp-color-status-danger: #8e3528;
+  --cp-input-error: #8e3528;
+  --cp-selection-error: #8e3528;
+}
+
+.cp-surface-wheat {
+  --cp-color-ink-muted: #60543b;
+  --cp-input-helper: #60543b;
+  --cp-progress-step-locked-label: #60543b;
+  --cp-color-accent-coral: #a33f2b;
+  --cp-link-marker: #a33f2b;
+  --cp-color-status-danger: #8e3528;
+  --cp-input-error: #8e3528;
+  --cp-selection-error: #8e3528;
+}
+
+.cp-surface-rose {
+  --cp-color-ink-muted: #624e4a;
+  --cp-input-helper: #624e4a;
+  --cp-progress-step-locked-label: #624e4a;
+  --cp-color-accent-coral: #a33f2b;
+  --cp-link-marker: #a33f2b;
+  --cp-color-status-danger: #8e3528;
+  --cp-input-error: #8e3528;
+  --cp-selection-error: #8e3528;
+}
+
+/* Light panels and white boxes inside a band keep standard ink; a box's focus ring draws over the band, so it stays the band's */
+:is(.cp-surface-wine, .cp-surface-green, .cp-surface-peacock, .cp-surface-violet, .cp-surface-sage, .cp-surface-wheat, .cp-surface-rose) :where(.cp-surface-standard, .cp-menu__list, .cp-card:not(.cp-surface-inverse) > *) {
+  --cp-color-ink: #002159;
+  --cp-color-ink-muted: #67625d;
+  --cp-color-line: #e8e4df;
+  --cp-color-accent-gold: #c58c23;
+  --cp-color-accent-coral: #d8583f;
+  --cp-color-accent-coral-text: #a33f2b;
+  --cp-color-interactive: #002159;
+  --cp-color-interactive-hover: #001b43;
+  --cp-color-interactive-pressed: #001b43;
+  --cp-color-status-danger: #8e3528;
+  --cp-color-focus-ring: #0951b1;
+  --cp-button-primary-background: #002159;
+  --cp-button-primary-background-hover: #001b43;
+  --cp-button-primary-background-pressed: #001b43;
+  --cp-button-primary-background-disabled: #f5ede1;
+  --cp-button-primary-label: #fffdf8;
+  --cp-button-primary-label-disabled: #67625d;
+  --cp-button-secondary-background: #ffffff;
+  --cp-button-secondary-background-hover: #f8f2e8;
+  --cp-button-secondary-background-pressed: #f5ede1;
+  --cp-button-secondary-background-disabled: #f5ede1;
+  --cp-button-secondary-label: #002159;
+  --cp-button-secondary-label-disabled: #67625d;
+  --cp-button-secondary-border: #e8e4df;
+  --cp-link-label: #002159;
+  --cp-link-marker: #d8583f;
+  --cp-input-label: #002159;
+  --cp-input-helper: #67625d;
+  --cp-input-error: #8e3528;
+  --cp-input-border-error: #8e3528;
+  --cp-selection-control-border: #002159;
+  --cp-selection-control-checked-background: #002159;
+  --cp-selection-control-mark: #fffdf8;
+  --cp-selection-control-error-border: #8e3528;
+  --cp-selection-label: #002159;
+  --cp-selection-error: #8e3528;
+  --cp-progress-track-background: #f5ede1;
+  --cp-progress-track-border: #e8e4df;
+  --cp-progress-fill: #002159;
+  --cp-progress-step-completed: #002159;
+  --cp-progress-step-completed-label: #fffdf8;
+  --cp-progress-step-current-ring: #c58c23;
+  --cp-progress-step-upcoming-border: #e8e4df;
+  --cp-progress-step-upcoming-background: #ffffff;
+  --cp-progress-step-upcoming-label: #002159;
+  --cp-progress-spinner-track: #e8e4df;
+  --cp-progress-spinner-head: #002159;
+  --cp-progress-step-locked-label: #67625d;
+}
+
+:is(.cp-surface-wine, .cp-surface-green, .cp-surface-peacock, .cp-surface-violet, .cp-surface-sage, .cp-surface-wheat, .cp-surface-rose) :where(.cp-card:not(.cp-surface-inverse), .cp-menu__trigger, .cp-input__control, .cp-select) {
+  --cp-color-ink: #002159;
+  --cp-color-ink-muted: #67625d;
+  --cp-color-line: #e8e4df;
+  --cp-color-accent-gold: #c58c23;
+  --cp-color-accent-coral: #d8583f;
+  --cp-color-accent-coral-text: #a33f2b;
+  --cp-color-interactive: #002159;
+  --cp-color-interactive-hover: #001b43;
+  --cp-color-interactive-pressed: #001b43;
+  --cp-color-status-danger: #8e3528;
+  --cp-button-primary-background: #002159;
+  --cp-button-primary-background-hover: #001b43;
+  --cp-button-primary-background-pressed: #001b43;
+  --cp-button-primary-background-disabled: #f5ede1;
+  --cp-button-primary-label: #fffdf8;
+  --cp-button-primary-label-disabled: #67625d;
+  --cp-button-secondary-background: #ffffff;
+  --cp-button-secondary-background-hover: #f8f2e8;
+  --cp-button-secondary-background-pressed: #f5ede1;
+  --cp-button-secondary-background-disabled: #f5ede1;
+  --cp-button-secondary-label: #002159;
+  --cp-button-secondary-label-disabled: #67625d;
+  --cp-button-secondary-border: #e8e4df;
+  --cp-link-label: #002159;
+  --cp-link-marker: #d8583f;
+  --cp-input-label: #002159;
+  --cp-input-helper: #67625d;
+  --cp-input-error: #8e3528;
+  --cp-input-border-error: #8e3528;
+  --cp-selection-control-border: #002159;
+  --cp-selection-control-checked-background: #002159;
+  --cp-selection-control-mark: #fffdf8;
+  --cp-selection-control-error-border: #8e3528;
+  --cp-selection-label: #002159;
+  --cp-selection-error: #8e3528;
+  --cp-progress-track-background: #f5ede1;
+  --cp-progress-track-border: #e8e4df;
+  --cp-progress-fill: #002159;
+  --cp-progress-step-completed: #002159;
+  --cp-progress-step-completed-label: #fffdf8;
+  --cp-progress-step-current-ring: #c58c23;
+  --cp-progress-step-upcoming-border: #e8e4df;
+  --cp-progress-step-upcoming-background: #ffffff;
+  --cp-progress-step-upcoming-label: #002159;
+  --cp-progress-spinner-track: #e8e4df;
+  --cp-progress-spinner-head: #002159;
+  --cp-progress-step-locked-label: #67625d;
+}
+/**
+ * Hand-written component styles. Token refs only — no raw hex or px.
+ * Built against dist/css/<theme>/tokens.css (U7).
+ */
+
+/* -------------------------------------------------------------------------- */
+/* Button                                                                     */
+/* -------------------------------------------------------------------------- */
+
+.cp-button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--cp-space-8);
+  min-height: var(--cp-button-min-height-regular);
+  padding-block: var(--cp-space-12);
+  padding-inline: var(--cp-button-padding-inline-regular);
+  border-width: var(--cp-stroke-1);
+  border-style: solid;
+  border-color: transparent;
+  border-radius: var(--cp-button-radius);
+  font-family: var(--cp-font-family-ui);
+  font-size: var(--cp-font-label-size);
+  font-weight: var(--cp-font-weight-medium);
+  line-height: var(--cp-font-role-label-line-height);
+  letter-spacing: var(--cp-font-role-label-letter-spacing);
+  text-decoration: none;
+  cursor: pointer;
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-duration: var(--cp-motion-duration);
+  transition-timing-function: var(--cp-motion-ease);
+}
+
+.cp-button:focus {
+  outline: none;
+}
+
+.cp-button:focus-visible {
+  outline: var(--cp-stroke-3) solid var(--cp-color-focus-ring);
+  outline-offset: var(--cp-stroke-3);
+}
+
+.cp-button--compact {
+  min-height: var(--cp-button-min-height-compact);
+  padding-inline: var(--cp-button-padding-inline-compact);
+}
+
+/*
+ * Primary and secondary are material buttons (D-041, D-043): the primary is
+ * lapis, the secondary limestone, in every register. A raking light follows
+ * the pointer (dist/js/cp-button.js sets --cp-button-x and --cp-button-y), and
+ * the Winchester frame is drawn on ::before (bars) and ::after (corner rings
+ * and the budded cross). At rest the bars stand short at the corners; hover,
+ * focus, press and a tap run them to the middle, where the cross closes the
+ * frame. On touch there is no hover, so a tap shows the same (D-042).
+ */
+
+@property --cp-button-run { syntax: "<number>"; inherits: true; initial-value: 0; }
+@property --cp-button-side { syntax: "<number>"; inherits: true; initial-value: 0; }
+@property --cp-button-sign { syntax: "<number>"; inherits: true; initial-value: 0; }
+@property --cp-button-glow { syntax: "<number>"; inherits: true; initial-value: 0; }
+@property --cp-button-press { syntax: "<number>"; inherits: true; initial-value: 0; }
+@property --cp-button-lamp { syntax: "<length>"; inherits: true; initial-value: 0; }
+@property --cp-button-x { syntax: "<length-percentage>"; inherits: true; initial-value: 50%; }
+@property --cp-button-y { syntax: "<length-percentage>"; inherits: true; initial-value: 50%; }
+
+.cp-button--primary, .cp-button--secondary {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: var(--cp-button-frame-min-height);
+  padding-inline: var(--cp-space-32);
+  border-color: transparent;
+  font-family: var(--cp-font-family-ui);
+  font-size: var(--cp-font-body-size);
+  letter-spacing: normal;
+  line-height: 1;
+  white-space: nowrap;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition-property: transform, box-shadow, color, background-color, --cp-button-run, --cp-button-side, --cp-button-sign, --cp-button-glow, --cp-button-lamp;
+  transition-duration: var(--cp-motion-duration), var(--cp-motion-duration), var(--cp-motion-duration), var(--cp-motion-duration), var(--cp-button-motion-run), var(--cp-button-motion-side), var(--cp-button-motion-sign), var(--cp-button-motion-lamp), var(--cp-button-motion-lamp);
+  transition-timing-function: var(--cp-motion-ease), var(--cp-motion-ease), var(--cp-motion-ease), var(--cp-motion-ease), var(--cp-motion-ease), var(--cp-motion-ease), var(--cp-button-motion-spring), var(--cp-motion-ease), var(--cp-motion-ease);
+  transition-delay: 0s;
+  /* Open states read these, so reduced motion can zero them without matching each state's selector. */
+  --cp-button-delay-side: var(--cp-button-motion-side-delay);
+  --cp-button-delay-sign: var(--cp-button-motion-sign-delay);
+}
+
+/* Lapis: the primary */
+.cp-button--primary {
+  --cp-button-gold: var(--cp-button-lapis-gold);
+  --cp-button-light: calc(0.6 + var(--cp-button-glow) * 0.4);
+  color: var(--cp-button-lapis-label);
+  background-color: var(--cp-button-lapis-ground);
+  background-image:
+    radial-gradient(circle calc(var(--cp-button-lamp) * 1.7) at var(--cp-button-x) var(--cp-button-y), color-mix(in srgb, var(--cp-button-lapis-lamp) calc(var(--cp-button-light) * 20%), transparent), transparent 70%),
+    linear-gradient(180deg, color-mix(in srgb, var(--cp-button-lapis-label) calc(var(--cp-button-light) * 7%), transparent), transparent 50%, color-mix(in srgb, var(--cp-button-lapis-shade) calc(var(--cp-button-light) * 18%), transparent)),
+    url("/img/lapis-button.jpg");
+  background-size: auto, auto, cover;
+  background-position: 0 0, 0 0, center;
+  background-blend-mode: screen, screen, normal;
+  box-shadow:
+    inset 0 var(--cp-stroke-1) 0 color-mix(in srgb, var(--cp-button-lapis-label) 16%, transparent),
+    inset 0 calc(-1 * var(--cp-stroke-1)) 0 color-mix(in srgb, var(--cp-button-lapis-shade) 50%, transparent),
+    inset 0 0 0 var(--cp-stroke-1) color-mix(in srgb, var(--cp-button-lapis-gold) calc((0.4 + var(--cp-button-glow) * 0.35) * 100%), transparent),
+    0 var(--cp-stroke-1) calc(var(--cp-stroke-1) * 2) color-mix(in srgb, var(--cp-button-lapis-ground) 25%, transparent),
+    0 var(--cp-space-8) var(--cp-space-20) calc(-1 * var(--cp-space-8)) color-mix(in srgb, var(--cp-button-lapis-ground) 50%, transparent);
+}
+
+/* Limestone: the secondary */
+.cp-button--secondary {
+  --cp-button-gold: var(--cp-button-limestone-gold);
+  --cp-button-light: calc(0.35 + var(--cp-button-glow) * 0.65);
+  color: var(--cp-button-limestone-label);
+  background-color: var(--cp-button-limestone-ground);
+  background-image:
+    radial-gradient(circle calc(var(--cp-button-lamp) * 1.6) at var(--cp-button-x) var(--cp-button-y), color-mix(in srgb, var(--cp-button-limestone-lamp) calc(var(--cp-button-light) * 90%), transparent), transparent 70%),
+    linear-gradient(180deg, color-mix(in srgb, var(--cp-button-limestone-highlight) calc(var(--cp-button-light) * 35%), transparent), transparent 55%, color-mix(in srgb, var(--cp-button-limestone-shade) calc(var(--cp-button-light) * 6%), transparent)),
+    url("/img/limestone-button.jpg");
+  background-size: auto, auto, var(--cp-button-limestone-tile);
+  background-position: 0 0, 0 0, center;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-blend-mode: soft-light, soft-light, normal;
+  box-shadow:
+    inset 0 var(--cp-stroke-1) 0 color-mix(in srgb, var(--cp-button-limestone-highlight) 95%, transparent),
+    inset 0 calc(-1 * var(--cp-stroke-1)) 0 color-mix(in srgb, var(--cp-button-limestone-shade) 14%, transparent),
+    inset 0 0 0 var(--cp-stroke-1) color-mix(in srgb, var(--cp-button-limestone-rim) calc((0.16 + var(--cp-button-glow) * 0.4) * 100%), transparent),
+    0 var(--cp-stroke-1) calc(var(--cp-stroke-1) * 2) color-mix(in srgb, var(--cp-button-limestone-shade) 14%, transparent),
+    0 var(--cp-space-8) var(--cp-space-20) calc(-1 * var(--cp-space-8)) color-mix(in srgb, var(--cp-button-limestone-shade) 28%, transparent);
+}
+
+/* The frame: both layers sit under the label and fade from 25% to 60% as it closes. */
+.cp-button--primary::before,
+.cp-button--secondary::before,
+.cp-button--primary::after,
+.cp-button--secondary::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  color: var(--cp-button-gold);
+  opacity: calc(var(--cp-button-frame-opacity-rest) + (var(--cp-button-frame-opacity-closed) - var(--cp-button-frame-opacity-rest)) * var(--cp-button-run));
+}
+
+/* Bars: two 1 px lines per arm, eight arms, each reaching from its corner ring.
+   The short-edge bars overlap by half a stroke at the middle so no seam shows. */
+.cp-button--primary::before,
+.cp-button--secondary::before {
+  --cp-button-reach-long: calc(var(--cp-button-frame-rest-long) - var(--cp-button-frame-start) + (50% - var(--cp-button-frame-rest-long) - var(--cp-button-frame-sign-gap)) * var(--cp-button-run));
+  --cp-button-reach-short: calc(var(--cp-button-frame-rest-short) - var(--cp-button-frame-start) + (50% - var(--cp-button-frame-rest-short) + var(--cp-stroke-1) / 2) * var(--cp-button-side));
+  inset: var(--cp-button-frame-inset);
+  background-image:
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor),
+    linear-gradient(currentColor, currentColor);
+  background-size:
+    var(--cp-button-reach-long) var(--cp-stroke-1), var(--cp-button-reach-long) var(--cp-stroke-1),
+    var(--cp-button-reach-long) var(--cp-stroke-1), var(--cp-button-reach-long) var(--cp-stroke-1),
+    var(--cp-button-reach-long) var(--cp-stroke-1), var(--cp-button-reach-long) var(--cp-stroke-1),
+    var(--cp-button-reach-long) var(--cp-stroke-1), var(--cp-button-reach-long) var(--cp-stroke-1),
+    var(--cp-stroke-1) var(--cp-button-reach-short), var(--cp-stroke-1) var(--cp-button-reach-short),
+    var(--cp-stroke-1) var(--cp-button-reach-short), var(--cp-stroke-1) var(--cp-button-reach-short),
+    var(--cp-stroke-1) var(--cp-button-reach-short), var(--cp-stroke-1) var(--cp-button-reach-short),
+    var(--cp-stroke-1) var(--cp-button-reach-short), var(--cp-stroke-1) var(--cp-button-reach-short);
+  background-position:
+    left var(--cp-button-frame-start) top 0, left var(--cp-button-frame-start) top var(--cp-button-frame-pitch),
+    right var(--cp-button-frame-start) top 0, right var(--cp-button-frame-start) top var(--cp-button-frame-pitch),
+    left var(--cp-button-frame-start) bottom 0, left var(--cp-button-frame-start) bottom var(--cp-button-frame-pitch),
+    right var(--cp-button-frame-start) bottom 0, right var(--cp-button-frame-start) bottom var(--cp-button-frame-pitch),
+    left 0 top var(--cp-button-frame-start), left var(--cp-button-frame-pitch) top var(--cp-button-frame-start),
+    right 0 top var(--cp-button-frame-start), right var(--cp-button-frame-pitch) top var(--cp-button-frame-start),
+    left 0 bottom var(--cp-button-frame-start), left var(--cp-button-frame-pitch) bottom var(--cp-button-frame-start),
+    right 0 bottom var(--cp-button-frame-start), right var(--cp-button-frame-pitch) bottom var(--cp-button-frame-start);
+  background-repeat: no-repeat;
+}
+
+/* Corner rings and the budded cross, drawn as masks over the gold. The cross
+   is only as large as --cp-button-sign, so it is absent at rest. */
+.cp-button--primary::after,
+.cp-button--secondary::after {
+  --cp-button-sign-size: calc(var(--cp-button-frame-unit) * var(--cp-button-sign) * (1 - 0.1 * var(--cp-button-press)));
+  --cp-button-sign-offset: calc((var(--cp-button-frame-unit) - var(--cp-button-sign-size)) / 2);
+  inset: calc(var(--cp-button-frame-inset) + (var(--cp-button-frame-pitch) + var(--cp-stroke-1)) / 2 - var(--cp-button-frame-unit) / 2);
+  background-color: currentColor;
+  -webkit-mask-image:
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><circle cx='6' cy='6' r='2.2' fill='none' stroke='black' stroke-width='0.9'/></svg>"),
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><circle cx='6' cy='6' r='2.2' fill='none' stroke='black' stroke-width='0.9'/></svg>"),
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><circle cx='6' cy='6' r='2.2' fill='none' stroke='black' stroke-width='0.9'/></svg>"),
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><circle cx='6' cy='6' r='2.2' fill='none' stroke='black' stroke-width='0.9'/></svg>"),
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><path d='M5.55 3.6H6.45V8.4H5.55ZM3.6 5.55H8.4V6.45H3.6Z'/><circle cx='6' cy='3.2' r='0.6'/><circle cx='5.26' cy='3.55' r='0.6'/><circle cx='6.74' cy='3.55' r='0.6'/><circle cx='6' cy='8.8' r='0.6'/><circle cx='5.26' cy='8.45' r='0.6'/><circle cx='6.74' cy='8.45' r='0.6'/><circle cx='3.2' cy='6' r='0.6'/><circle cx='3.55' cy='5.26' r='0.6'/><circle cx='3.55' cy='6.74' r='0.6'/><circle cx='8.8' cy='6' r='0.6'/><circle cx='8.45' cy='5.26' r='0.6'/><circle cx='8.45' cy='6.74' r='0.6'/></svg>"),
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><path d='M5.55 3.6H6.45V8.4H5.55ZM3.6 5.55H8.4V6.45H3.6Z'/><circle cx='6' cy='3.2' r='0.6'/><circle cx='5.26' cy='3.55' r='0.6'/><circle cx='6.74' cy='3.55' r='0.6'/><circle cx='6' cy='8.8' r='0.6'/><circle cx='5.26' cy='8.45' r='0.6'/><circle cx='6.74' cy='8.45' r='0.6'/><circle cx='3.2' cy='6' r='0.6'/><circle cx='3.55' cy='5.26' r='0.6'/><circle cx='3.55' cy='6.74' r='0.6'/><circle cx='8.8' cy='6' r='0.6'/><circle cx='8.45' cy='5.26' r='0.6'/><circle cx='8.45' cy='6.74' r='0.6'/></svg>");
+  mask-image:
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><circle cx='6' cy='6' r='2.2' fill='none' stroke='black' stroke-width='0.9'/></svg>"),
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><circle cx='6' cy='6' r='2.2' fill='none' stroke='black' stroke-width='0.9'/></svg>"),
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><circle cx='6' cy='6' r='2.2' fill='none' stroke='black' stroke-width='0.9'/></svg>"),
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><circle cx='6' cy='6' r='2.2' fill='none' stroke='black' stroke-width='0.9'/></svg>"),
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><path d='M5.55 3.6H6.45V8.4H5.55ZM3.6 5.55H8.4V6.45H3.6Z'/><circle cx='6' cy='3.2' r='0.6'/><circle cx='5.26' cy='3.55' r='0.6'/><circle cx='6.74' cy='3.55' r='0.6'/><circle cx='6' cy='8.8' r='0.6'/><circle cx='5.26' cy='8.45' r='0.6'/><circle cx='6.74' cy='8.45' r='0.6'/><circle cx='3.2' cy='6' r='0.6'/><circle cx='3.55' cy='5.26' r='0.6'/><circle cx='3.55' cy='6.74' r='0.6'/><circle cx='8.8' cy='6' r='0.6'/><circle cx='8.45' cy='5.26' r='0.6'/><circle cx='8.45' cy='6.74' r='0.6'/></svg>"),
+    url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><path d='M5.55 3.6H6.45V8.4H5.55ZM3.6 5.55H8.4V6.45H3.6Z'/><circle cx='6' cy='3.2' r='0.6'/><circle cx='5.26' cy='3.55' r='0.6'/><circle cx='6.74' cy='3.55' r='0.6'/><circle cx='6' cy='8.8' r='0.6'/><circle cx='5.26' cy='8.45' r='0.6'/><circle cx='6.74' cy='8.45' r='0.6'/><circle cx='3.2' cy='6' r='0.6'/><circle cx='3.55' cy='5.26' r='0.6'/><circle cx='3.55' cy='6.74' r='0.6'/><circle cx='8.8' cy='6' r='0.6'/><circle cx='8.45' cy='5.26' r='0.6'/><circle cx='8.45' cy='6.74' r='0.6'/></svg>");
+  -webkit-mask-size: var(--cp-button-frame-unit) var(--cp-button-frame-unit), var(--cp-button-frame-unit) var(--cp-button-frame-unit), var(--cp-button-frame-unit) var(--cp-button-frame-unit), var(--cp-button-frame-unit) var(--cp-button-frame-unit), var(--cp-button-sign-size) var(--cp-button-sign-size), var(--cp-button-sign-size) var(--cp-button-sign-size);
+  mask-size: var(--cp-button-frame-unit) var(--cp-button-frame-unit), var(--cp-button-frame-unit) var(--cp-button-frame-unit), var(--cp-button-frame-unit) var(--cp-button-frame-unit), var(--cp-button-frame-unit) var(--cp-button-frame-unit), var(--cp-button-sign-size) var(--cp-button-sign-size), var(--cp-button-sign-size) var(--cp-button-sign-size);
+  -webkit-mask-position: left top, right top, left bottom, right bottom, left 50% top var(--cp-button-sign-offset), left 50% bottom var(--cp-button-sign-offset);
+  mask-position: left top, right top, left bottom, right bottom, left 50% top var(--cp-button-sign-offset), left 50% bottom var(--cp-button-sign-offset);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+/* Compact and icon-only buttons keep the material and the light; the frame needs the full height. */
+.cp-button--compact:is(.cp-button--primary, .cp-button--secondary),
+.cp-button--icon:is(.cp-button--primary, .cp-button--secondary) {
+  min-height: var(--cp-button-min-height-compact);
+  font-size: var(--cp-font-label-size);
+}
+
+.cp-button--compact:is(.cp-button--primary, .cp-button--secondary) {
+  padding-inline: var(--cp-button-padding-inline-compact);
+}
+
+.cp-button--compact::before,
+.cp-button--compact::after,
+.cp-button--icon::before,
+.cp-button--icon::after {
+  display: none;
+}
+
+/* Open: the frame closes. Hover only where a pointer can hover, so a tap never sticks. */
+@media (hover: hover) {
+  .cp-button--primary:not(:disabled):not([aria-disabled='true']):hover,
+  .cp-button--secondary:not(:disabled):not([aria-disabled='true']):hover {
+    --cp-button-run: 1;
+    --cp-button-side: 1;
+    --cp-button-sign: 1;
+    --cp-button-glow: 1;
+    --cp-button-lamp: var(--cp-button-lamp-hover);
+    transition-delay: 0s, 0s, 0s, 0s, 0s, var(--cp-button-delay-side), var(--cp-button-delay-sign), 0s, 0s;
+    transform: translateY(calc(-1 * var(--cp-stroke-1)));
+  }
+}
+
+/* Focus and a touch tap (D-042) show what hover shows. cp-button.js sets data-cp-tapped. */
+.cp-button--primary:focus-visible,
+.cp-button--secondary:focus-visible,
+.cp-button--primary:not(:disabled):not([aria-disabled='true'])[data-cp-tapped],
+.cp-button--secondary:not(:disabled):not([aria-disabled='true'])[data-cp-tapped] {
+  --cp-button-run: 1;
+  --cp-button-side: 1;
+  --cp-button-sign: 1;
+  --cp-button-glow: 1;
+  --cp-button-lamp: var(--cp-button-lamp-hover);
+  transition-delay: 0s, 0s, 0s, 0s, 0s, var(--cp-button-delay-side), var(--cp-button-delay-sign), 0s, 0s;
+}
+
+/* Pressed: the frame closes, the cross draws in a little, the light narrows. */
+.cp-button--primary:not(:disabled):not([aria-disabled='true']):active,
+.cp-button--secondary:not(:disabled):not([aria-disabled='true']):active {
+  --cp-button-run: 1;
+  --cp-button-side: 1;
+  --cp-button-sign: 1;
+  --cp-button-press: 1;
+  --cp-button-glow: 0.5;
+  --cp-button-lamp: var(--cp-button-lamp-pressed);
+  transition-delay: 0s, 0s, 0s, 0s, 0s, var(--cp-button-delay-side), var(--cp-button-delay-sign), 0s, 0s;
+  transform: translateY(var(--cp-stroke-1));
+}
+
+.cp-button--primary:not(:disabled):not([aria-disabled='true']):active {
+  box-shadow:
+    inset 0 calc(var(--cp-stroke-1) * 2) var(--cp-space-8) color-mix(in srgb, var(--cp-button-lapis-shade) 55%, transparent),
+    inset 0 0 0 var(--cp-stroke-1) color-mix(in srgb, var(--cp-button-lapis-gold) 70%, transparent),
+    0 var(--cp-stroke-1) 0 color-mix(in srgb, var(--cp-button-lapis-label) 25%, transparent);
+}
+
+.cp-button--secondary:not(:disabled):not([aria-disabled='true']):active {
+  box-shadow:
+    inset 0 calc(var(--cp-stroke-1) * 2) var(--cp-space-8) color-mix(in srgb, var(--cp-button-limestone-shade) 22%, transparent),
+    inset 0 calc(-1 * var(--cp-stroke-1)) 0 color-mix(in srgb, var(--cp-button-limestone-highlight) 70%, transparent),
+    inset 0 0 0 var(--cp-stroke-1) color-mix(in srgb, var(--cp-button-limestone-rim) 50%, transparent),
+    0 var(--cp-stroke-1) 0 color-mix(in srgb, var(--cp-button-limestone-highlight) 80%, transparent);
+}
+
+/* Busy: the frame stays closed and the light walks across and back. */
+.cp-button--primary[aria-busy='true'],
+.cp-button--secondary[aria-busy='true'] {
+  --cp-button-run: 1;
+  --cp-button-side: 1;
+  --cp-button-sign: 1;
+  --cp-button-glow: 1;
+  --cp-button-lamp: var(--cp-button-lamp-hover);
+  transition-delay: 0s, 0s, 0s, 0s, 0s, var(--cp-button-delay-side), var(--cp-button-delay-sign), 0s, 0s;
+  --cp-button-y: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .cp-button--primary[aria-busy='true'],
+  .cp-button--secondary[aria-busy='true'] {
+    animation: cp-button-walk var(--cp-button-motion-walk) var(--cp-motion-ease) infinite alternate;
+  }
+}
+
+@keyframes cp-button-walk {
+  from {
+    --cp-button-x: 8%;
+  }
+
+  to {
+    --cp-button-x: 92%;
+  }
+}
+
+/* Disabled: muted ink on the inset fill, no material, no light, no frame — never opacity. */
+.cp-button--primary:disabled,
+.cp-button--primary[aria-disabled='true'] {
+  background: var(--cp-button-primary-background-disabled);
+  color: var(--cp-button-primary-label-disabled);
+  box-shadow: inset 0 0 0 var(--cp-stroke-1) var(--cp-color-line);
+  transform: none;
+  cursor: not-allowed;
+}
+
+.cp-button--secondary:disabled,
+.cp-button--secondary[aria-disabled='true'] {
+  background: var(--cp-button-secondary-background-disabled);
+  color: var(--cp-button-secondary-label-disabled);
+  box-shadow: inset 0 0 0 var(--cp-stroke-1) var(--cp-color-line);
+  transform: none;
+  cursor: not-allowed;
+}
+
+:is(.cp-button--primary, .cp-button--secondary):is(:disabled, [aria-disabled='true'])::before,
+:is(.cp-button--primary, .cp-button--secondary):is(:disabled, [aria-disabled='true'])::after {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cp-button--primary, .cp-button--secondary {
+    --cp-button-delay-side: 0s;
+    --cp-button-delay-sign: 0s;
+    transition-duration: var(--cp-motion-duration-reduced);
+    transition-delay: 0s;
+  }
+}
+
+.cp-button--icon {
+  width: var(--cp-button-min-height-regular);
+  min-width: var(--cp-button-min-height-regular);
+  height: var(--cp-button-min-height-regular);
+  padding: 0;
+}
+
+.cp-button--icon .cp-button__icon,
+.cp-button__icon {
+  width: var(--cp-button-icon-size);
+  height: var(--cp-button-icon-size);
+  flex-shrink: 0;
+}
+
+.cp-button[aria-busy='true'] {
+  cursor: progress;
+}
+
+.cp-button__spinner {
+  /* Slot filled by U8 spinner; reserved so layout does not jump. */
+  display: inline-flex;
+  width: var(--cp-button-icon-size);
+  height: var(--cp-button-icon-size);
+}
+
+/* -------------------------------------------------------------------------- */

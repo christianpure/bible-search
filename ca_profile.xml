@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/christianpure/bible-search/main/icon.png</Icon>
+  <Profile>Christian Pure publishes free Bible study and prayer tools at christianpure.com. This repository holds Christian Pure Bible Search, a private Bible and prayer search that runs on your own server.</Profile>
+  <WebPage>https://christianpure.com/?utm_source=unraid&amp;utm_medium=app&amp;utm_campaign=bible-search-app</WebPage>
+  <GitHub>https://github.com/christianpure</GitHub>
+</Maintainer>

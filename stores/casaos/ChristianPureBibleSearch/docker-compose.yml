@@ -1,0 +1,57 @@
+name: christianpure-bible-search
+services:
+  christianpure-bible-search:
+    image: ghcr.io/christianpure/bible-search:0.1.0
+    container_name: christianpure-bible-search
+    network_mode: bridge
+    restart: unless-stopped
+    environment:
+      STUDY_SOURCE: casaos
+    ports:
+      - target: 8417
+        published: "8417"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: /DATA/AppData/christianpure-bible-search/data
+        target: /data
+    deploy:
+      resources:
+        reservations:
+          memory: 64M
+    x-casaos:
+      envs:
+        - container: STUDY_SOURCE
+          description:
+            en_US: Leave as it is. It tells Christian Pure which store the app came from when you follow a link to the site.
+      ports:
+        - container: "8417"
+          description:
+            en_US: Web page
+      volumes:
+        - container: /data
+          description:
+            en_US: The search index and the saved prayers.
+x-casaos:
+  id: com.christianpure.biblesearch
+  architectures:
+    - amd64
+    - arm64
+  main: christianpure-bible-search
+  author: Christian Pure
+  category: Utilities
+  description:
+    en_US: Type a worry, a question or a verse and see the strongest Bible verses on it, a prayer to pray now, and Christian Pure pages to read next. The whole Berean Standard Bible, 6,699 subjects and 340 prayers are searched on your own server, so what you type stays with you, and it works with no internet connection.
+  developer: Christian Pure
+  icon: https://cdn.jsdelivr.net/gh/christianpure/bible-search@main/icon.png
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/christianpure/bible-search@main/docs/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/christianpure/bible-search@main/docs/screenshot-2.png
+  tagline:
+    en_US: Find what the Bible says about anything, and a prayer to pray
+  thumbnail: https://cdn.jsdelivr.net/gh/christianpure/bible-search@main/icon.png
+  tips: {}
+  title:
+    en_US: Christian Pure Bible Search
+  index: /
+  port_map: "8417"

@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: christianpure-bible-search
+category: ai
+name: Christian Pure Bible Search
+version: "0.1.0"
+tagline: Find what the Bible says about anything, and a prayer to pray
+description: >-
+  Type a worry, a question or a verse, and Christian Pure Bible Search shows the strongest Bible verses on it, a prayer you
+  can pray now, and Christian Pure pages to read next. Everything is searched on your Umbrel, so what you type stays
+  with you, and it keeps working with no internet connection.
+
+
+  - The whole Berean Standard Bible, with every chapter one click away from each verse.
+
+  - 6,699 subjects, each with the verses people found most helpful, from OpenBible.info's votes and Christian Pure's verse pages.
+
+  - 340 prayers from Christian Pure, for illness, grief, worry, money, meals, meetings and more.
+releaseNotes: ""
+
+developer: Christian Pure
+website: https://christianpure.com/?utm_source=umbrel&utm_medium=app&utm_campaign=bible-search-app
+dependencies: []
+repo: https://github.com/christianpure/bible-search
+support: https://github.com/christianpure/bible-search/issues
+
+port: 8417
+gallery: []
+path: ""
+
+defaultUsername: ""
+defaultPassword: ""
+
+submitter: Christian Pure
+submission: ""

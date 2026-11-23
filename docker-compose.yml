@@ -1,0 +1,12 @@
+# docker compose up -d   then open http://localhost:8417
+services:
+  bible-search:
+    image: ghcr.io/christianpure/bible-search:latest
+    container_name: christianpure-bible-search
+    ports:
+      - "8417:8417"
+    volumes:
+      - ./data:/data
+    environment:
+      STUDY_SOURCE: docker
+    restart: unless-stopped

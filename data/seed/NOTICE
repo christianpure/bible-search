@@ -1,0 +1,17 @@
+Christian Pure prayers and article list
+
+The files in data/seed/packs/ (prayers-finder.json, prayers-aloud.json and
+llms.txt) are copyright Christian Pure, christianpure.com. They are the same
+prayers and article list published on christianpure.com.
+
+You may keep and share them unchanged as part of this app, so that it works
+without an internet connection. They are not covered by the MIT licence that
+covers the code. To use them for anything else, write to admin@christianpure.com.
+
+The app refreshes these files from christianpure.com once a week when it can.
+
+Other data:
+- data/src/bsb.tsv.gz: Berean Standard Bible, public domain (berean.bible).
+- data/src/topics.tsv.gz: topical Bible data from OpenBible.info, licensed
+  CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), combined with the
+  verses chosen on Christian Pure's verse pages.

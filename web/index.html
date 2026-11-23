@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" data-look="c">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Christian Pure Bible Search</title>
+<meta name="description" content="Search the Bible and Christian Pure's prayers on your own computer.">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/christianpure-tab-32.png">
+<link rel="apple-touch-icon" href="/img/christianpure-icon-192.png">
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#" aria-label="Christian Pure Bible Search, start again">
+    <img class="logo-light" src="/img/christianpure-logo-light-497w.png" width="166" height="65" alt="Christian Pure">
+    <img class="logo-navy" src="/img/christianpure-logo-on-navy-497w.png" width="166" height="65" alt="Christian Pure">
+  </a>
+  <form class="ask" role="search" id="ask">
+    <label class="ask-label" for="q" id="q-label">Search the Bible and our prayers</label>
+    <div class="ask-row">
+      <input id="q" name="q" type="search" autocomplete="off" spellcheck="true"
+             placeholder="Try anxiety, a prayer for a meal, or Psalm 23">
+      <button class="cp-button cp-button--primary" type="submit">Search</button>
+    </div>
+  </form>
+</header>
+
+<main id="main" tabindex="-1">
+  <section class="start" id="start">
+    <h1 class="start-title">Find what the Bible says, and a prayer to pray</h1>
+    <p class="start-lede">Type a worry, a question or a verse. Everything is searched here on your computer, so what you type stays with you.</p>
+    <ul class="chips" id="examples" aria-label="Try one of these">
+      <li><a class="chip" href="#q=anxiety">Anxiety</a></li>
+      <li><a class="chip" href="#q=grief">Grief</a></li>
+      <li><a class="chip" href="#q=forgiveness">Forgiveness</a></li>
+      <li><a class="chip" href="#q=a%20prayer%20before%20a%20meal">A prayer before a meal</a></li>
+      <li><a class="chip" href="#q=money%20worries">Money worries</a></li>
+      <li><a class="chip" href="#q=Psalm%2023">Psalm 23</a></li>
+    </ul>
+  </section>
+
+  <section class="results" id="results" hidden>
+    <div class="answer">
+      <p class="kicker" id="kicker">What the Bible says about</p>
+      <h1 class="subject" id="subject"></h1>
+      <ul class="chips related" id="related" aria-label="Close to this"></ul>
+      <div class="lead" id="lead"></div>
+      <div class="passages" id="passages"></div>
+      <div class="summary" id="summary" hidden>
+        <button class="cp-button cp-button--secondary" type="button" id="summarise">Summarise these verses</button>
+        <div class="summary-out" id="summary-out" hidden>
+          <p class="summary-text" id="summary-text"></p>
+          <p class="summary-note">Written just now by a small AI model on this computer from the verses above. It can be wrong; the verses are the text. <button class="text-button" type="button" id="again">Write it again</button></p>
+        </div>
+      </div>
+    </div>
+    <aside class="side">
+      <section class="prayer" id="prayer" hidden aria-labelledby="prayer-title">
+        <p class="label">A prayer</p>
+        <h2 class="prayer-title" id="prayer-title"></h2>
+        <p class="prayer-text" id="prayer-text"></p>
+        <p class="prayer-source" id="prayer-source"></p>
+        <button class="text-button" type="button" id="next-prayer" hidden>Another prayer</button>
+      </section>
+      <section class="pages" id="pages" hidden aria-labelledby="pages-title">
+        <h2 class="label" id="pages-title">Read more on Christian Pure</h2>
+        <ul id="page-list"></ul>
+      </section>
+    </aside>
+  </section>
+
+  <section class="reader" id="reader" hidden>
+    <a class="back" id="back" href="#">Back</a>
+    <h1 class="subject" id="reader-title"></h1>
+    <div class="chapter" id="chapter"></div>
+    <nav class="pager" aria-label="Chapters">
+      <a class="cp-button cp-button--secondary" id="prev" href="#">Previous chapter</a>
+      <a class="cp-button cp-button--secondary" id="next" href="#">Next chapter</a>
+    </nav>
+  </section>
+
+  <p class="empty" id="empty" hidden></p>
+</main>
+
+<footer class="foot">
+  <p>Bible text: Berean Standard Bible, public domain. Subjects and their verses: <a href="https://www.openbible.info/topics/">OpenBible.info</a>, CC BY 4.0, with the verses chosen on Christian Pure's verse pages first. Prayers: <a id="foot-site" href="https://christianpure.com/">christianpure.com</a>.</p>
+  <p id="foot-status">Searches run on this computer and are not sent anywhere.</p>
+</footer>
+<script src="/app.js"></script>
+</body>
+</html>

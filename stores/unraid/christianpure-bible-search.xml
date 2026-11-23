@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>christianpure-bible-search</Name>
+  <Repository>ghcr.io/christianpure/bible-search:latest</Repository>
+  <Registry>https://github.com/christianpure/bible-search/pkgs/container/bible-search</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/christianpure/bible-search/issues</Support>
+  <Project>https://github.com/christianpure/bible-search</Project>
+  <Overview>Type a worry, a question or a verse and see the strongest Bible verses on it, a prayer to pray now, and Christian Pure pages to read next. The whole Berean Standard Bible, 6,699 subjects and 340 prayers are searched on your own server, so what you type stays with you, and it works with no internet connection.</Overview>
+  <Category>Tools: Other:</Category>
+  <WebUI>http://[IP]:[PORT:8417]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/christianpure/bible-search/main/stores/unraid/christianpure-bible-search.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/christianpure/bible-search/main/icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPU/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Web page port" Target="8417" Default="8417" Mode="tcp" Description="The port the page opens on." Type="Port" Display="always" Required="true" Mask="false">8417</Config>
+  <Config Name="Data" Target="/data" Default="/mnt/user/appdata/christianpure-bible-search" Mode="rw" Description="The search index and the saved prayers. Safe to delete; it is rebuilt in a second." Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/christianpure-bible-search</Config>
+  <Config Name="Store" Target="STUDY_SOURCE" Default="unraid" Mode="" Description="Leave as it is. It tells Christian Pure which store the app came from when you follow a link to the site." Type="Variable" Display="advanced-hide" Required="false" Mask="false">unraid</Config>
+</Container>
