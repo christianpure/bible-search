@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Christian Pure Bible Search</title>
+<meta name="description" content="A free app that puts the whole Bible and Christian Pure's prayers on your own computer. It works with no internet connection.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#002159; --muted:#3d4a63; --paper:#fffdf8; --band:#f5efe3; --gold:#c58c23; --wine:#6a1c26; --line:#e3dccd; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:18px/1.6 'Source Serif 4', Georgia, serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-weight:600; font-size:clamp(2rem, 5vw, 2.8rem); line-height:1.15; margin:0 0 16px; }
+  h2 { font-weight:600; font-size:1.4rem; margin:48px 0 12px; padding-top:16px; border-top:1px solid var(--line); }
+  p, li { color:var(--muted); }
+  a { color:var(--wine); }
+  .lede { font-size:1.15rem; color:var(--ink); }
+  .shot { display:block; width:100%; height:auto; margin:32px 0 8px; border:1px solid var(--line); border-radius:8px; }
+  .caption { font-size:.9rem; font-style:italic; margin:0; }
+  ul { padding-left:1.2em; }
+  li { margin:0 0 10px; }
+  li strong, p strong { color:var(--ink); }
+  code { display:block; overflow-x:auto; white-space:pre; background:var(--band); color:var(--ink); padding:12px 14px; border-radius:6px; font-size:.85rem; margin:8px 0; }
+  .button { display:inline-block; background:var(--ink); color:var(--paper); text-decoration:none; padding:12px 22px; border-radius:6px; font-weight:600; margin:8px 0; }
+  .button:hover { background:var(--wine); }
+  footer { margin-top:48px; font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Christian Pure Bible Search</h1>
+  <p class="lede">A free app that puts the whole Bible and our prayers on your own computer. Type what you are carrying, such as worry, grief or a hard decision, and it shows you what Scripture says about it and a prayer you can pray. Nothing you type leaves your computer, and it works with no internet connection.</p>
+  <p>This page shows the app; it runs on your own computer rather than here. Installing it takes a few minutes and needs no account.</p>
+  <a class="button" href="https://github.com/christianpure/bible-search" target="_blank" rel="noopener">Get it free on GitHub</a>
+
+  <img class="shot" src="https://raw.githubusercontent.com/christianpure/bible-search/main/docs/screenshot-1.png" alt="The app showing Philippians 4:6–7 and other verses after a search for anxiety" width="1440" height="900">
+  <p class="caption">A search for anxiety.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Finds the passages for 6,699 subjects, from anxiety and forgiveness to money worries and marriage, and suggests close subjects to read next.</li>
+    <li>Opens any verse or chapter you type, such as John 3:16 or Psalm 23, and lets you read on chapter by chapter.</li>
+    <li>Offers a prayer from Christian Pure for the need, with a link to the article it comes from.</li>
+    <li>Keeps your searches private. They are never sent anywhere, so you can bring the hardest questions to it.</li>
+  </ul>
+
+  <img class="shot" src="https://raw.githubusercontent.com/christianpure/bible-search/main/docs/screenshot-2.png" alt="The app showing a prayer for the sick and Christian Pure articles on healing, after a search for a prayer for a sick friend" width="1440" height="900" loading="lazy">
+  <p class="caption">A search for a prayer for a sick friend, with a prayer and articles to read next.</p>
+
+  <h2>Install it</h2>
+  <p>Choose the way that suits your computer.</p>
+  <ul>
+    <li><strong>Pinokio</strong> (Windows, Mac and Linux): open <a href="https://pinokio.co" target="_blank" rel="noopener">Pinokio</a>, choose Download from URL, paste <span style="word-break:break-all">https://github.com/christianpure/bible-search</span>, then click Install and Start.</li>
+    <li><strong>A home server</strong>: we have sent it to the Umbrel, CasaOS and Unraid app stores. Until it appears there, the Docker line below works on any of them.</li>
+    <li><strong>Docker</strong>: run this line, then open localhost:8417 in your browser.
+      <code>docker run -d --name christianpure-bible-search -p 8417:8417 -v christianpure-bible-search:/data ghcr.io/christianpure/bible-search</code></li>
+    <li><strong>The code</strong>: everything is on <a href="https://github.com/christianpure/bible-search" target="_blank" rel="noopener">GitHub</a>, free to read and run.</li>
+  </ul>
+
+  <img class="shot" src="https://raw.githubusercontent.com/christianpure/bible-search/main/docs/screenshot-3.png" alt="The app open at Psalm 23, ready to read on chapter by chapter" width="1440" height="900" loading="lazy">
+  <p class="caption">Psalm 23, opened from a search for comfort.</p>
+
+  <h2>Where the words come from</h2>
+  <p>The Bible text is the Berean Standard Bible, which is in the public domain. The subjects and their verses come from <a href="https://www.openbible.info/topics/" target="_blank" rel="noopener">OpenBible.info</a> (CC BY 4.0), with the verses chosen on our own verse pages shown first. The prayers are the ones you can read on <a href="https://christianpure.com/?utm_source=huggingface&amp;utm_medium=app&amp;utm_campaign=bible-search-app" target="_blank" rel="noopener">christianpure.com</a>, and the app checks for new ones once a week when it is online.</p>
+
+  <footer>
+    <p>Made by <a href="https://christianpure.com/bible-search-app/?utm_source=huggingface&amp;utm_medium=app&amp;utm_campaign=bible-search-app" target="_blank" rel="noopener">Christian Pure</a>. Free, with an MIT licence. Questions: admin@christianpure.com.</p>
+  </footer>
+</main>
+</body>
+</html>
